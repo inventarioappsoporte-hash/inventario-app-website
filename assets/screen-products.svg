@@ -1,27 +1,21 @@
 <svg width="260" height="560" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#F5F5F5;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#FAFAFA;stop-opacity:1" />
-    </linearGradient>
-  </defs>
-  <rect width="260" height="560" fill="url(#bg)"/>
+  <rect width="260" height="560" fill="#FFFFFF"/>
   
   <!-- Status Bar -->
-  <rect x="0" y="0" width="260" height="30" fill="#000" opacity="0.1"/>
-  <text x="20" y="20" fill="#333" font-family="Arial" font-size="12">9:41</text>
-  <text x="220" y="20" fill="#333" font-family="Arial" font-size="12">100%</text>
+  <rect x="0" y="0" width="260" height="30" fill="#000" opacity="0.05"/>
+  <text x="20" y="20" fill="#212121" font-family="Arial" font-size="12">9:41</text>
+  <text x="220" y="20" fill="#212121" font-family="Arial" font-size="12">100%</text>
   
   <!-- Header with Search -->
-  <rect x="16" y="50" width="180" height="40" fill="white" rx="20" stroke="#E0E0E0"/>
-  <text x="30" y="75" fill="#999" font-family="Arial" font-size="14">🔍 Buscar productos...</text>
+  <rect x="16" y="50" width="180" height="40" fill="#FFFFFF" rx="8" stroke="#E0E0E0"/>
+  <text x="30" y="75" fill="#757575" font-family="Arial" font-size="14">🔍 Buscar productos...</text>
   
   <!-- Filter Button -->
-  <circle cx="210" cy="70" r="20" fill="#2196F3"/>
+  <circle cx="210" cy="70" r="20" fill="#FF9800"/>
   <text x="210" y="76" fill="white" font-family="Arial" font-size="16" text-anchor="middle">⚙</text>
   
   <!-- PDF Button -->
-  <circle cx="230" cy="110" r="16" fill="#FF9800"/>
+  <circle cx="230" cy="110" r="16" fill="#2196F3"/>
   <text x="230" y="116" fill="white" font-family="Arial" font-size="12" text-anchor="middle">📄</text>
   
   <!-- Add Button -->
@@ -29,16 +23,16 @@
   <text x="230" y="158" fill="white" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle">+</text>
   
   <!-- Free Version Limit -->
-  <rect x="16" y="100" width="228" height="30" fill="#FFF3E0" rx="8"/>
-  <text x="130" y="120" fill="#FF9800" font-family="Arial" font-size="12" text-anchor="middle">Versión gratuita: 12/25 productos</text>
+  <rect x="16" y="100" width="228" height="30" fill="#F5F5F5" rx="8"/>
+  <text x="130" y="120" fill="#757575" font-family="Arial" font-size="12" text-anchor="middle">Versión gratuita: 12/25 productos</text>
   
   <!-- Product Cards -->
   <!-- Product 1 -->
-  <rect x="16" y="140" width="228" height="80" fill="white" rx="12" stroke="#E0E0E0"/>
-  <rect x="24" y="148" width="50" height="50" fill="#E3F2FD" rx="8"/>
+  <rect x="16" y="140" width="228" height="80" fill="#FFFFFF" rx="12" stroke="#E0E0E0"/>
+  <rect x="24" y="148" width="50" height="50" fill="#F5F5F5" rx="8"/>
   <text x="49" y="178" fill="#2196F3" font-family="Arial" font-size="20" text-anchor="middle">📱</text>
-  <text x="84" y="165" fill="#333" font-family="Arial" font-size="16" font-weight="bold">iPhone 13 Pro</text>
-  <text x="84" y="180" fill="#666" font-family="Arial" font-size="12">Stock: 5 • Precio: $999.00</text>
+  <text x="84" y="165" fill="#212121" font-family="Arial" font-size="16" font-weight="bold">iPhone 13 Pro</text>
+  <text x="84" y="180" fill="#757575" font-family="Arial" font-size="12">Stock: 5 • Precio: $999.00</text>
   <text x="84" y="195" fill="#4CAF50" font-family="Arial" font-size="12">Electrónicos</text>
   <circle cx="220" cy="165" r="12" fill="#2196F3"/>
   <text x="220" y="170" fill="white" font-family="Arial" font-size="12" text-anchor="middle">✏</text>
@@ -46,11 +40,11 @@
   <text x="220" y="195" fill="white" font-family="Arial" font-size="12" text-anchor="middle">🗑</text>
   
   <!-- Product 2 -->
-  <rect x="16" y="230" width="228" height="80" fill="white" rx="12" stroke="#E0E0E0"/>
-  <rect x="24" y="238" width="50" height="50" fill="#FFF3E0" rx="8"/>
+  <rect x="16" y="230" width="228" height="80" fill="#FFFFFF" rx="12" stroke="#E0E0E0"/>
+  <rect x="24" y="238" width="50" height="50" fill="#F5F5F5" rx="8"/>
   <text x="49" y="268" fill="#FF9800" font-family="Arial" font-size="20" text-anchor="middle">👕</text>
-  <text x="84" y="255" fill="#333" font-family="Arial" font-size="16" font-weight="bold">Camiseta Nike</text>
-  <text x="84" y="270" fill="#666" font-family="Arial" font-size="12">Stock: 12 • Precio: $45.00</text>
+  <text x="84" y="255" fill="#212121" font-family="Arial" font-size="16" font-weight="bold">Camiseta Nike</text>
+  <text x="84" y="270" fill="#757575" font-family="Arial" font-size="12">Stock: 12 • Precio: $45.00</text>
   <text x="84" y="285" fill="#FF9800" font-family="Arial" font-size="12">Ropa</text>
   <circle cx="220" cy="255" r="12" fill="#2196F3"/>
   <text x="220" y="260" fill="white" font-family="Arial" font-size="12" text-anchor="middle">✏</text>
@@ -58,11 +52,11 @@
   <text x="220" y="285" fill="white" font-family="Arial" font-size="12" text-anchor="middle">🗑</text>
   
   <!-- Product 3 -->
-  <rect x="16" y="320" width="228" height="80" fill="white" rx="12" stroke="#E0E0E0"/>
-  <rect x="24" y="328" width="50" height="50" fill="#E8F5E8" rx="8"/>
+  <rect x="16" y="320" width="228" height="80" fill="#FFFFFF" rx="12" stroke="#E0E0E0"/>
+  <rect x="24" y="328" width="50" height="50" fill="#F5F5F5" rx="8"/>
   <text x="49" y="358" fill="#4CAF50" font-family="Arial" font-size="20" text-anchor="middle">🍎</text>
-  <text x="84" y="345" fill="#333" font-family="Arial" font-size="16" font-weight="bold">Manzanas Rojas</text>
-  <text x="84" y="360" fill="#666" font-family="Arial" font-size="12">Stock: 2 kg • Precio: $3.50</text>
+  <text x="84" y="345" fill="#212121" font-family="Arial" font-size="16" font-weight="bold">Manzanas Rojas</text>
+  <text x="84" y="360" fill="#757575" font-family="Arial" font-size="12">Stock: 2 kg • Precio: $3.50</text>
   <text x="84" y="375" fill="#F44336" font-family="Arial" font-size="12">⚠ Bajo stock - Alimentos</text>
   <circle cx="220" cy="345" r="12" fill="#2196F3"/>
   <text x="220" y="350" fill="white" font-family="Arial" font-size="12" text-anchor="middle">✏</text>
@@ -70,18 +64,18 @@
   <text x="220" y="375" fill="white" font-family="Arial" font-size="12" text-anchor="middle">🗑</text>
   
   <!-- Product 4 -->
-  <rect x="16" y="410" width="228" height="80" fill="white" rx="12" stroke="#E0E0E0"/>
-  <rect x="24" y="418" width="50" height="50" fill="#F3E5F5" rx="8"/>
-  <text x="49" y="448" fill="#9C27B0" font-family="Arial" font-size="20" text-anchor="middle">🪑</text>
-  <text x="84" y="435" fill="#333" font-family="Arial" font-size="16" font-weight="bold">Silla de Oficina</text>
-  <text x="84" y="450" fill="#666" font-family="Arial" font-size="12">Stock: 8 • Precio: $150.00</text>
-  <text x="84" y="465" fill="#9C27B0" font-family="Arial" font-size="12">Hogar</text>
+  <rect x="16" y="410" width="228" height="80" fill="#FFFFFF" rx="12" stroke="#E0E0E0"/>
+  <rect x="24" y="418" width="50" height="50" fill="#F5F5F5" rx="8"/>
+  <text x="49" y="448" fill="#FF9800" font-family="Arial" font-size="20" text-anchor="middle">🪑</text>
+  <text x="84" y="435" fill="#212121" font-family="Arial" font-size="16" font-weight="bold">Silla de Oficina</text>
+  <text x="84" y="450" fill="#757575" font-family="Arial" font-size="12">Stock: 8 • Precio: $150.00</text>
+  <text x="84" y="465" fill="#FF9800" font-family="Arial" font-size="12">Hogar</text>
   <circle cx="220" cy="435" r="12" fill="#2196F3"/>
   <text x="220" y="440" fill="white" font-family="Arial" font-size="12" text-anchor="middle">✏</text>
   <circle cx="220" cy="460" r="12" fill="#F44336"/>
   <text x="220" y="465" fill="white" font-family="Arial" font-size="12" text-anchor="middle">🗑</text>
   
   <!-- Bottom Navigation Hint -->
-  <rect x="16" y="500" width="228" height="40" fill="rgba(33,150,243,0.1)" rx="8"/>
-  <text x="130" y="525" fill="#2196F3" font-family="Arial" font-size="12" text-anchor="middle">Desliza para ver más productos...</text>
+  <rect x="16" y="500" width="228" height="40" fill="#F5F5F5" rx="8"/>
+  <text x="130" y="525" fill="#757575" font-family="Arial" font-size="12" text-anchor="middle">Desliza para ver más productos...</text>
 </svg>
