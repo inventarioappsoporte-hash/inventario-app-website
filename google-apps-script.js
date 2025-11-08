@@ -3,8 +3,22 @@
 
 function doPost(e) {
   try {
+    // Verificar límite diario de emails
+    const today = new Date().toDateString();
+    const properties = PropertiesService.getScriptProperties();
+    const emailCount = parseInt(properties.getProperty('emailCount_' + today) || '0');
+    
+    if (emailCount >= 50) { // Límite de 50 emails por día
+      return ContentService.createTextOutput(JSON.stringify({success: false, error: 'Límite diario alcanzado'})).setMimeType(ContentService.MimeType.JSON);
+    }
+    
     // Parsear los datos del formulario
     const data = JSON.parse(e.postData.contents);
+    
+    // Validar datos básicos
+    if (!data.name || !data.email || !data.message) {
+      return ContentService.createTextOutput(JSON.stringify({success: false, error: 'Datos incompletos'})).setMimeType(ContentService.MimeType.JSON);
+    }
     
     // Email de destino
     const emailDestino = 'infosoporteinventarioapp@gmail.com';
@@ -35,6 +49,9 @@ Este mensaje fue enviado desde el formulario de contacto de inventarioapp.com
       body: cuerpo,
       replyTo: data.email
     });
+    
+    // Incrementar contador diario
+    properties.setProperty('emailCount_' + today, (emailCount + 1).toString());
     
     // Respuesta exitosa
     return ContentService
