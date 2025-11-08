@@ -187,32 +187,34 @@
                 </div>
 
                 <div class="step-by-step">
-                    <h3>🔐 Paso 2: Primer Inicio y Seguridad</h3>
+                    <h3>🔐 Paso 2: Configuración de Seguridad (Opcional)</h3>
                     <div class="step-content">
                         <div class="step-info">
-                            <p><strong>Configuración inicial de seguridad:</strong></p>
+                            <p><strong>Configuración de PIN de seguridad:</strong></p>
                             <ol>
-                                <li>Al abrir por primera vez, la app te pedirá configurar un <strong>PIN de seguridad</strong></li>
+                                <li>Al abrir por primera vez, la app <strong>NO</strong> te pedirá configurar PIN automáticamente</li>
+                                <li>Para activar seguridad, ve a <strong>Configuración</strong> (ícono de engranaje)</li>
+                                <li>Busca la sección <strong>"Seguridad"</strong></li>
+                                <li>Activa <strong>"PIN de seguridad"</strong></li>
                                 <li>Elige un PIN de 4 dígitos que recuerdes fácilmente</li>
                                 <li>Confirma el PIN ingresándolo nuevamente</li>
                                 <li>Si tu dispositivo tiene huella dactilar, puedes activarla como método alternativo</li>
-                                <li>Toca <strong>"Continuar"</strong> para acceder al dashboard</li>
                             </ol>
                             <div class="tip-box">
                                 <span class="tip-icon">💡</span>
-                                <p><strong>Consejo:</strong> Usa un PIN que no sea tu fecha de nacimiento o números consecutivos para mayor seguridad.</p>
+                                <p><strong>Consejo:</strong> La seguridad con PIN es opcional pero recomendada si compartes el dispositivo o manejas información sensible.</p>
                             </div>
                         </div>
                         <div class="step-image">
                             <div class="image-placeholder">
-                                📸 [Imagen: Pantalla de configuración de PIN]
+                                📸 [Imagen: Configuración de seguridad en ajustes]
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="step-by-step">
-                    <h3>🏪 Paso 3: Configurar Información del Negocio</h3>
+                    <h3>🏪 Paso 3: Personalizar la App</h3>
                     <div class="step-content">
                         <div class="step-info">
                             <p><strong>Personaliza la app para tu negocio:</strong></p>
@@ -220,9 +222,13 @@
                                 <li>Ve a <strong>Configuración</strong> (ícono de engranaje)</li>
                                 <li>Selecciona tu <strong>idioma preferido</strong> (Español/English)</li>
                                 <li>Elige el <strong>tema</strong> (claro u oscuro)</li>
-                                <li>Configura la <strong>moneda</strong> de tu país</li>
+                                <li>La <strong>moneda</strong> se detecta automáticamente según tu país</li>
                                 <li>Guarda los cambios</li>
                             </ol>
+                            <div class="tip-box">
+                                <span class="tip-icon">💡</span>
+                                <p><strong>Nota:</strong> La app detecta automáticamente la moneda de tu región, no necesitas configurarla manualmente.</p>
+                            </div>
                         </div>
                         <div class="step-image">
                             <div class="image-placeholder">
@@ -285,13 +291,27 @@
                     <h3>🔍 Elementos del Dashboard</h3>
                     
                     <div class="dashboard-element">
-                        <h4>📈 Tarjetas de Estadísticas</h4>
+                        <h4>📈 Tarjetas de Estadísticas (8 Elementos)</h4>
                         <div class="stats-grid">
                             <div class="stat-explanation">
                                 <span class="stat-icon">📦</span>
                                 <div>
                                     <h5>Total de Productos</h5>
                                     <p>Muestra cuántos productos tienes registrados. Toca para ir directamente a la lista de productos.</p>
+                                </div>
+                            </div>
+                            <div class="stat-explanation">
+                                <span class="stat-icon">❓</span>
+                                <div>
+                                    <h5>Productos sin Categoría</h5>
+                                    <p>Productos que no tienen categoría asignada y necesitan organización.</p>
+                                </div>
+                            </div>
+                            <div class="stat-explanation">
+                                <span class="stat-icon">🧮</span>
+                                <div>
+                                    <h5>Con Costos</h5>
+                                    <p>Muestra cuántos productos tienen precio de compra configurado (ej: 15/25).</p>
                                 </div>
                             </div>
                             <div class="stat-explanation">
@@ -302,10 +322,10 @@
                                 </div>
                             </div>
                             <div class="stat-explanation">
-                                <span class="stat-icon">💰</span>
+                                <span class="stat-icon">📉</span>
                                 <div>
-                                    <h5>Valor del Inventario</h5>
-                                    <p>Valor total de tu stock calculado con precios de venta actuales.</p>
+                                    <h5>Margen Negativo (PRO)</h5>
+                                    <p>Productos donde el precio de venta es menor al costo de compra.</p>
                                 </div>
                             </div>
                             <div class="stat-explanation">
@@ -313,6 +333,20 @@
                                 <div>
                                     <h5>Total de Movimientos</h5>
                                     <p>Cantidad de entradas y salidas de stock registradas.</p>
+                                </div>
+                            </div>
+                            <div class="stat-explanation">
+                                <span class="stat-icon">🏷️</span>
+                                <div>
+                                    <h5>Valor Inventario (Costo)</h5>
+                                    <p>Valor total de tu stock calculado con precios de compra/costo.</p>
+                                </div>
+                            </div>
+                            <div class="stat-explanation">
+                                <span class="stat-icon">💰</span>
+                                <div>
+                                    <h5>Valor Inventario (Venta)</h5>
+                                    <p>Valor total de tu stock calculado con precios de venta actuales.</p>
                                 </div>
                             </div>
                         </div>
@@ -449,7 +483,7 @@
                                     <ul>
                                         <li><strong>Nombre:</strong> Ej: "Camiseta Nike Azul Talla M"</li>
                                         <li><strong>Descripción:</strong> Detalles adicionales del producto</li>
-                                        <li><strong>SKU:</strong> Código único (opcional pero recomendado)</li>
+                                        <li><strong>SKU:</strong> Código único (obligatorio)</li>
                                         <li><strong>Categoría:</strong> Selecciona o crea una nueva</li>
                                     </ul>
                                 </li>
