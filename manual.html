@@ -1,0 +1,1334 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual de Usuario - Inventario App</title>
+    <meta name="description" content="Manual completo de usuario para Inventario App. Aprende a usar todas las funciones paso a paso.">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="assets/logo.png" alt="Inventario App" class="logo">
+                <span class="brand-name">Inventario App</span>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Volver al Inicio</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Manual Content -->
+    <section class="manual-content">
+        <div class="container">
+            <div class="manual-header">
+                <h1>📘 Manual de Usuario</h1>
+                <p class="manual-subtitle">Guía completa para dominar Inventario App</p>
+            </div>
+
+            <!-- Table of Contents -->
+            <div class="table-of-contents">
+                <h2>📋 Índice de Contenidos</h2>
+                <div class="toc-grid">
+                    <a href="#introduccion" class="toc-item">
+                        <span class="toc-number">1</span>
+                        <span class="toc-title">🏠 Introducción</span>
+                    </a>
+                    <a href="#instalacion" class="toc-item">
+                        <span class="toc-number">2</span>
+                        <span class="toc-title">⚙️ Instalación y Configuración</span>
+                    </a>
+                    <a href="#dashboard" class="toc-item">
+                        <span class="toc-number">3</span>
+                        <span class="toc-title">🧾 Dashboard Principal</span>
+                    </a>
+                    <a href="#productos" class="toc-item">
+                        <span class="toc-number">4</span>
+                        <span class="toc-title">📦 Gestión de Productos</span>
+                    </a>
+                    <a href="#movimientos" class="toc-item">
+                        <span class="toc-number">5</span>
+                        <span class="toc-title">📊 Control de Stock</span>
+                    </a>
+                    <a href="#categorias" class="toc-item">
+                        <span class="toc-number">6</span>
+                        <span class="toc-title">📁 Categorías</span>
+                    </a>
+                    <a href="#reportes" class="toc-item">
+                        <span class="toc-number">7</span>
+                        <span class="toc-title">📈 Reportes y Análisis</span>
+                    </a>
+                    <a href="#respaldos" class="toc-item">
+                        <span class="toc-number">8</span>
+                        <span class="toc-title">💾 Respaldos y Seguridad</span>
+                    </a>
+                    <a href="#configuracion" class="toc-item">
+                        <span class="toc-number">9</span>
+                        <span class="toc-title">⚙️ Configuración Avanzada</span>
+                    </a>
+                    <a href="#pro" class="toc-item">
+                        <span class="toc-number">10</span>
+                        <span class="toc-title">⭐ Funciones PRO</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Section 1: Introducción -->
+            <div id="introduccion" class="manual-section">
+                <h2>🏠 1. Introducción</h2>
+                
+                <div class="intro-card">
+                    <h3>¿Qué es Inventario App?</h3>
+                    <p>Inventario App es una aplicación móvil diseñada específicamente para <strong>pequeños negocios y emprendimientos</strong> que necesitan controlar su stock de manera eficiente y profesional.</p>
+                    
+                    <div class="benefits-grid">
+                        <div class="benefit-item">
+                            <span class="benefit-icon">📱</span>
+                            <div>
+                                <h4>100% Móvil</h4>
+                                <p>Controla tu inventario desde tu celular o tablet, en cualquier lugar</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-icon">🔄</span>
+                            <div>
+                                <h4>Funciona Offline</h4>
+                                <p>No necesitas internet para gestionar tu stock diario</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-icon">💰</span>
+                            <div>
+                                <h4>Control de Costos</h4>
+                                <p>Calcula automáticamente ganancias y costos promedio</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-icon">📊</span>
+                            <div>
+                                <h4>Reportes Automáticos</h4>
+                                <p>Estadísticas y análisis de tu negocio en tiempo real</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="objective-card">
+                    <h3>🎯 Objetivo Principal</h3>
+                    <p>Ayudarte a <strong>tomar mejores decisiones comerciales</strong> mediante el control preciso de tu inventario, costos y ganancias, sin complicaciones técnicas.</p>
+                </div>
+
+                <div class="target-users">
+                    <h3>👥 ¿Para quién es esta app?</h3>
+                    <div class="users-grid">
+                        <div class="user-type">
+                            <span class="user-icon">🛍️</span>
+                            <h4>Tiendas de Ropa</h4>
+                            <p>Control de tallas, colores y temporadas</p>
+                        </div>
+                        <div class="user-type">
+                            <span class="user-icon">🔧</span>
+                            <h4>Ferreterías</h4>
+                            <p>Gestión de herramientas y materiales</p>
+                        </div>
+                        <div class="user-type">
+                            <span class="user-icon">🍕</span>
+                            <h4>Restaurantes</h4>
+                            <p>Control de ingredientes y suministros</p>
+                        </div>
+                        <div class="user-type">
+                            <span class="user-icon">💄</span>
+                            <h4>Cosméticos</h4>
+                            <p>Inventario de productos de belleza</p>
+                        </div>
+                        <div class="user-type">
+                            <span class="user-icon">📚</span>
+                            <h4>Librerías</h4>
+                            <p>Gestión de libros y papelería</p>
+                        </div>
+                        <div class="user-type">
+                            <span class="user-icon">🏪</span>
+                            <h4>Minimarkets</h4>
+                            <p>Control de productos variados</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section 2: Instalación -->
+            <div id="instalacion" class="manual-section">
+                <h2>⚙️ 2. Instalación y Configuración Inicial</h2>
+                
+                <div class="step-by-step">
+                    <h3>📱 Paso 1: Descargar la App</h3>
+                    <div class="step-content">
+                        <div class="step-info">
+                            <p><strong>Desde Google Play Store:</strong></p>
+                            <ol>
+                                <li>Abre Google Play Store en tu dispositivo Android</li>
+                                <li>Busca "Inventario App" o "Control de Stock"</li>
+                                <li>Toca el botón <strong>"Instalar"</strong></li>
+                                <li>Espera a que se complete la descarga</li>
+                                <li>Toca <strong>"Abrir"</strong> para iniciar</li>
+                            </ol>
+                        </div>
+                        <div class="step-image">
+                            <div class="image-placeholder">
+                                📸 [Imagen: Google Play Store con Inventario App]
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step-by-step">
+                    <h3>🔐 Paso 2: Primer Inicio y Seguridad</h3>
+                    <div class="step-content">
+                        <div class="step-info">
+                            <p><strong>Configuración inicial de seguridad:</strong></p>
+                            <ol>
+                                <li>Al abrir por primera vez, la app te pedirá configurar un <strong>PIN de seguridad</strong></li>
+                                <li>Elige un PIN de 4 dígitos que recuerdes fácilmente</li>
+                                <li>Confirma el PIN ingresándolo nuevamente</li>
+                                <li>Si tu dispositivo tiene huella dactilar, puedes activarla como método alternativo</li>
+                                <li>Toca <strong>"Continuar"</strong> para acceder al dashboard</li>
+                            </ol>
+                            <div class="tip-box">
+                                <span class="tip-icon">💡</span>
+                                <p><strong>Consejo:</strong> Usa un PIN que no sea tu fecha de nacimiento o números consecutivos para mayor seguridad.</p>
+                            </div>
+                        </div>
+                        <div class="step-image">
+                            <div class="image-placeholder">
+                                📸 [Imagen: Pantalla de configuración de PIN]
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step-by-step">
+                    <h3>🏪 Paso 3: Configurar Información del Negocio</h3>
+                    <div class="step-content">
+                        <div class="step-info">
+                            <p><strong>Personaliza la app para tu negocio:</strong></p>
+                            <ol>
+                                <li>Ve a <strong>Configuración</strong> (ícono de engranaje)</li>
+                                <li>Selecciona tu <strong>idioma preferido</strong> (Español/English)</li>
+                                <li>Elige el <strong>tema</strong> (claro u oscuro)</li>
+                                <li>Configura la <strong>moneda</strong> de tu país</li>
+                                <li>Guarda los cambios</li>
+                            </ol>
+                        </div>
+                        <div class="step-image">
+                            <div class="image-placeholder">
+                                📸 [Imagen: Pantalla de configuración inicial]
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="version-comparison">
+                    <h3>🆚 Versión Gratuita vs PRO</h3>
+                    <div class="comparison-table">
+                        <div class="comparison-column free">
+                            <h4>🆓 Versión Gratuita</h4>
+                            <ul>
+                                <li>✅ Hasta 25 productos</li>
+                                <li>✅ 5 categorías</li>
+                                <li>✅ 100 movimientos de stock</li>
+                                <li>✅ Funcionamiento offline</li>
+                                <li>✅ Reportes básicos</li>
+                                <li>✅ Alertas de bajo stock</li>
+                                <li>✅ Soporte por email</li>
+                            </ul>
+                        </div>
+                        <div class="comparison-column pro">
+                            <h4>⭐ Versión PRO ($4.99)</h4>
+                            <ul>
+                                <li>✅ Productos ilimitados</li>
+                                <li>✅ Categorías ilimitadas</li>
+                                <li>✅ Movimientos ilimitados</li>
+                                <li>✅ Escaneo de códigos de barras</li>
+                                <li>✅ Reportes avanzados con gráficos</li>
+                                <li>✅ Exportación a CSV/Excel</li>
+                                <li>✅ Catálogos PDF profesionales</li>
+                                <li>✅ Respaldos automáticos en nube</li>
+                                <li>✅ Seguridad con huella dactilar</li>
+                                <li>✅ Soporte prioritario</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section 3: Dashboard -->
+            <div id="dashboard" class="manual-section">
+                <h2>🧾 3. Dashboard Principal - Tu Centro de Control</h2>
+                
+                <div class="dashboard-overview">
+                    <h3>📊 Vista General del Dashboard</h3>
+                    <p>El dashboard es la <strong>pantalla principal</strong> donde verás el resumen completo de tu negocio al abrir la app.</p>
+                    
+                    <div class="dashboard-image">
+                        <div class="image-placeholder">
+                            📸 [Imagen: Dashboard principal con estadísticas]
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dashboard-sections">
+                    <h3>🔍 Elementos del Dashboard</h3>
+                    
+                    <div class="dashboard-element">
+                        <h4>📈 Tarjetas de Estadísticas</h4>
+                        <div class="stats-grid">
+                            <div class="stat-explanation">
+                                <span class="stat-icon">📦</span>
+                                <div>
+                                    <h5>Total de Productos</h5>
+                                    <p>Muestra cuántos productos tienes registrados. Toca para ir directamente a la lista de productos.</p>
+                                </div>
+                            </div>
+                            <div class="stat-explanation">
+                                <span class="stat-icon">⚠️</span>
+                                <div>
+                                    <h5>Productos con Bajo Stock</h5>
+                                    <p>Alerta cuando productos están por debajo del stock mínimo configurado.</p>
+                                </div>
+                            </div>
+                            <div class="stat-explanation">
+                                <span class="stat-icon">💰</span>
+                                <div>
+                                    <h5>Valor del Inventario</h5>
+                                    <p>Valor total de tu stock calculado con precios de venta actuales.</p>
+                                </div>
+                            </div>
+                            <div class="stat-explanation">
+                                <span class="stat-icon">🔄</span>
+                                <div>
+                                    <h5>Total de Movimientos</h5>
+                                    <p>Cantidad de entradas y salidas de stock registradas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dashboard-element">
+                        <h4>🚨 Alertas Inteligentes</h4>
+                        <div class="alert-types">
+                            <div class="alert-type">
+                                <span class="alert-icon">⚠️</span>
+                                <div>
+                                    <h5>Productos con Poco Stock</h5>
+                                    <p>Lista los primeros 5 productos que necesitan reposición urgente.</p>
+                                </div>
+                            </div>
+                            <div class="alert-type pro-feature">
+                                <span class="alert-icon">📉</span>
+                                <div>
+                                    <h5>Margen Negativo (PRO)</h5>
+                                    <p>Identifica productos donde el precio de venta es menor al costo de compra.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dashboard-element">
+                        <h4>⚡ Acciones Rápidas</h4>
+                        <div class="quick-actions">
+                            <div class="action-button">
+                                <span class="action-icon">➕</span>
+                                <div>
+                                    <h5>Agregar Producto</h5>
+                                    <p>Acceso directo para registrar un nuevo producto en tu inventario.</p>
+                                </div>
+                            </div>
+                            <div class="action-button">
+                                <span class="action-icon">📈</span>
+                                <div>
+                                    <h5>Entrada de Stock</h5>
+                                    <p>Registra mercadería que llega a tu negocio (compras, devoluciones).</p>
+                                </div>
+                            </div>
+                            <div class="action-button">
+                                <span class="action-icon">📉</span>
+                                <div>
+                                    <h5>Salida de Stock</h5>
+                                    <p>Registra ventas o productos que salen de tu inventario.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="navigation-guide">
+                    <h3>🧭 Navegación Principal</h3>
+                    <div class="nav-items">
+                        <div class="nav-item">
+                            <span class="nav-icon">📦</span>
+                            <div>
+                                <h5>Productos</h5>
+                                <p>Gestiona tu catálogo completo de productos</p>
+                            </div>
+                        </div>
+                        <div class="nav-item">
+                            <span class="nav-icon">🔄</span>
+                            <div>
+                                <h5>Movimientos</h5>
+                                <p>Historial de entradas y salidas de stock</p>
+                            </div>
+                        </div>
+                        <div class="nav-item">
+                            <span class="nav-icon">📁</span>
+                            <div>
+                                <h5>Categorías</h5>
+                                <p>Organiza tus productos por tipo</p>
+                            </div>
+                        </div>
+                        <div class="nav-item">
+                            <span class="nav-icon">📊</span>
+                            <div>
+                                <h5>Reportes</h5>
+                                <p>Análisis y estadísticas de ventas</p>
+                            </div>
+                        </div>
+                        <div class="nav-item">
+                            <span class="nav-icon">⚙️</span>
+                            <div>
+                                <h5>Configuración</h5>
+                                <p>Ajustes, respaldos y personalización</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section 4: Productos -->
+            <div id="productos" class="manual-section">
+                <h2>📦 4. Gestión de Productos - Tu Catálogo Digital</h2>
+                
+                <div class="products-overview">
+                    <h3>🎯 ¿Qué puedes hacer con los productos?</h3>
+                    <div class="features-grid">
+                        <div class="feature-item">
+                            <span class="feature-icon">➕</span>
+                            <h4>Agregar Productos</h4>
+                            <p>Registra nuevos productos con fotos, precios y descripciones</p>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">✏️</span>
+                            <h4>Editar Información</h4>
+                            <p>Actualiza precios, stock y datos cuando sea necesario</p>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">🔍</span>
+                            <h4>Buscar y Filtrar</h4>
+                            <p>Encuentra productos rápidamente por nombre o categoría</p>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">📊</span>
+                            <h4>Control de Stock</h4>
+                            <p>Monitorea cantidades y recibe alertas de bajo inventario</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step-by-step">
+                    <h3>➕ Cómo Agregar un Nuevo Producto</h3>
+                    <div class="step-content">
+                        <div class="step-info">
+                            <ol>
+                                <li><strong>Accede a Productos:</strong> Desde el dashboard, toca "Productos" o usa el botón "+" de acciones rápidas</li>
+                                <li><strong>Toca "Agregar Producto":</strong> Botón azul con símbolo "+" en la esquina</li>
+                                <li><strong>Completa la información básica:</strong>
+                                    <ul>
+                                        <li><strong>Nombre:</strong> Ej: "Camiseta Nike Azul Talla M"</li>
+                                        <li><strong>Descripción:</strong> Detalles adicionales del producto</li>
+                                        <li><strong>SKU:</strong> Código único (opcional pero recomendado)</li>
+                                        <li><strong>Categoría:</strong> Selecciona o crea una nueva</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Configura precios:</strong>
+                                    <ul>
+                                        <li><strong>Precio de Compra:</strong> Lo que te costó</li>
+                                        <li><strong>Precio de Venta:</strong> Lo que cobras al cliente</li>
+                                        <li><strong>Stock Inicial:</strong> Cantidad que tienes</li>
+                                        <li><strong>Stock Mínimo:</strong> Cuándo alertar (ej: 5 unidades)</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Agrega una foto:</strong> Toca el ícono de cámara para tomar foto o seleccionar de galería</li>
+                                <li><strong>Guarda:</strong> Toca "Guardar Producto"</li>
+                            </ol>
+                        </div>
+                        <div class="step-image">
+                            <div class="image-placeholder">
+                                📸 [Imagen: Formulario de agregar producto]
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pro-features-section">
+                    <h3>⭐ Funciones PRO para Productos</h3>
+                    <div class="pro-features">
+                        <div class="pro-feature">
+                            <span class="pro-icon">📱</span>
+                            <div>
+                                <h4>Escaneo de Códigos de Barras</h4>
+                                <p>Escanea códigos para agregar productos automáticamente o buscar en tu inventario</p>
+                            </div>
+                        </div>
+                        <div class="pro-feature">
+                            <span class="pro-icon">🔍</span>
+                            <div>
+                                <h4>Filtros Avanzados</h4>
+                                <p>Filtra por rango de precios, stock, margen de ganancia y más criterios</p>
+                            </div>
+                        </div>
+                        <div class="pro-feature">
+                            <span class="pro-icon">📄</span>
+                            <div>
+                                <h4>Catálogos PDF</h4>
+                                <p>Genera catálogos profesionales con fotos y precios para mostrar a clientes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tips-section">
+                    <h3>💡 Consejos para Gestionar Productos</h3>
+                    <div class="tips-grid">
+                        <div class="tip">
+                            <span class="tip-icon">🏷️</span>
+                            <div>
+                                <h4>Usa SKUs Consistentes</h4>
+                                <p>Crea un sistema de códigos: CAM-001, CAM-002 para camisetas, PAN-001 para pantalones</p>
+                            </div>
+                        </div>
+                        <div class="tip">
+                            <span class="tip-icon">📸</span>
+                            <div>
+                                <h4>Fotos de Calidad</h4>
+                                <p>Toma fotos con buena luz y fondo neutro. Te ayudará a identificar productos rápidamente</p>
+                            </div>
+                        </div>
+                        <div class="tip">
+                            <span class="tip-icon">💰</span>
+                            <div>
+                                <h4>Revisa Precios Regularmente</h4>
+                                <p>Actualiza precios según cambios de proveedores o inflación para mantener márgenes</p>
+                            </div>
+                        </div>
+                        <div class="tip">
+                            <span class="tip-icon">📊</span>
+                            <div>
+                                <h4>Configura Stock Mínimo</h4>
+                                <p>Establece alertas antes de quedarte sin stock. Ej: 5 unidades para productos de rotación rápida</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section 5: Movimientos -->
+            <div id="movimientos" class="manual-section">
+                <h2>📊 5. Control de Stock - Entradas y Salidas</h2>
+                
+                <div class="movements-overview">
+                    <h3>🔄 ¿Qué son los Movimientos de Stock?</h3>
+                    <p>Los movimientos registran <strong>cada cambio en tu inventario</strong>. Hay dos tipos principales:</p>
+                    
+                    <div class="movement-types">
+                        <div class="movement-type entrada">
+                            <span class="movement-icon">📈</span>
+                            <div>
+                                <h4>Entradas de Stock</h4>
+                                <p><strong>Cuando llega mercadería:</strong></p>
+                                <ul>
+                                    <li>Compras a proveedores</li>
+                                    <li>Devoluciones de clientes</li>
+                                    <li>Ajustes de inventario (encontraste stock perdido)</li>
+                                    <li>Productos en consignación</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="movement-type salida">
+                            <span class="movement-icon">📉</span>
+                            <div>
+                                <h4>Salidas de Stock</h4>
+                                <p><strong>Cuando sale mercadería:</strong></p>
+                                <ul>
+                                    <li>Ventas a clientes</li>
+                                    <li>Devoluciones a proveedores</li>
+                                    <li>Productos dañados o vencidos</li>
+                                    <li>Muestras gratis</li>
+                                    <li>Uso interno</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step-by-step">
+                    <h3>📈 Cómo Registrar una Entrada de Stock</h3>
+                    <div class="step-content">
+                        <div class="step-info">
+                            <p><strong>Ejemplo:</strong> Compraste 20 camisetas a $15 cada una</p>
+                            <ol>
+                                <li><strong>Ve a Movimientos:</strong> Desde el menú principal</li>
+                                <li><strong>Toca "Entrada":</strong> Botón verde con flecha hacia arriba</li>
+                                <li><strong>Selecciona el producto:</strong> Busca "Camiseta" en la lista</li>
+                                <li><strong>Ingresa la cantidad:</strong> "20"</li>
+                                <li><strong>Precio de compra:</strong> "15.00" (importante para calcular costo promedio)</li>
+                                <li><strong>Motivo:</strong> "Compra a proveedor XYZ"</li>
+                                <li><strong>Guarda:</strong> Toca "Guardar Movimiento"</li>
+                            </ol>
+                            <div class="result-box">
+                                <h5>✅ Resultado:</h5>
+                                <p>El stock se actualiza automáticamente y se recalcula el costo promedio del producto.</p>
+                            </div>
+                        </div>
+                        <div class="step-image">
+                            <div class="image-placeholder">
+                                📸 [Imagen: Formulario de entrada de stock]
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step-by-step">
+                    <h3>📉 Cómo Registrar una Salida de Stock (Venta)</h3>
+                    <div class="step-content">
+                        <div class="step-info">
+                            <p><strong>Ejemplo:</strong> Vendiste 3 camisetas a un cliente</p>
+                            <ol>
+                                <li><strong>Ve a Movimientos:</strong> Desde el menú principal</li>
+                                <li><strong>Toca "Salida":</strong> Botón rojo con flecha hacia abajo</li>
+                                <li><strong>Selecciona el producto:</strong> Busca "Camiseta" en la lista</li>
+                                <li><strong>Ingresa la cantidad:</strong> "3"</li>
+                                <li><strong>Motivo:</strong> "Venta a cliente" (opcional)</li>
+                                <li><strong>Verifica el precio:</strong> La app muestra el precio de venta y total</li>
+                                <li><strong>Guarda:</strong> Toca "Guardar Movimiento"</li>
+                            </ol>
+                            <div class="result-box">
+                                <h5>✅ Resultado:</h5>
+                                <p>El stock se reduce automáticamente y se registra la venta para reportes.</p>
+                            </div>
+                        </div>
+                        <div class="step-image">
+                            <div class="image-placeholder">
+                                📸 [Imagen: Formulario de salida de stock]
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pro-features-section">
+                    <h3>⭐ Funciones PRO para Movimientos</h3>
+                    <div class="pro-features">
+                        <div class="pro-feature">
+                            <span class="pro-icon">🔍</span>
+                            <div>
+                                <h4>Filtros Avanzados</h4>
+                                <p>Filtra movimientos por fecha, tipo, producto o busca por ID específico</p>
+                            </div>
+                        </div>
+                        <div class="pro-feature">
+                            <span class="pro-icon">📊</span>
+                            <div>
+                                <h4>Resumen Detallado</h4>
+                                <p>Ve totales de entradas, salidas y balance con valores monetarios</p>
+                            </div>
+                        </div>
+                        <div class="pro-feature">
+                            <span class="pro-icon">↩️</span>
+                            <div>
+                                <h4>Reversar Movimientos</h4>
+                                <p>Cancela movimientos incorrectos manteniendo el historial completo</p>
+                            </div>
+                        </div>
+                        <div class="pro-feature">
+                            <span class="pro-icon">📱</span>
+                            <div>
+                                <h4>Escaneo Rápido</h4>
+                                <p>Escanea códigos de barras para encontrar productos al registrar movimientos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="important-notes">
+                    <h3>⚠️ Notas Importantes sobre Movimientos</h3>
+                    <div class="notes-grid">
+                        <div class="note warning">
+                            <span class="note-icon">⚠️</span>
+                            <div>
+                                <h4>No Puedes Vender Más de lo que Tienes</h4>
+                                <p>La app te impedirá registrar salidas que dejen el stock en negativo</p>
+                            </div>
+                        </div>
+                        <div class="note info">
+                            <span class="note-icon">💡</span>
+                            <div>
+                                <h4>Costo Promedio Automático</h4>
+                                <p>Cada entrada actualiza el costo promedio del producto automáticamente</p>
+                            </div>
+                        </div>
+                        <div class="note success">
+                            <span class="note-icon">✅</span>
+                            <div>
+                                <h4>Historial Completo</h4>
+                                <p>Todos los movimientos quedan registrados para auditorías y reportes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2025 Inventario App. Todos los derechos reservados.</p>
+                <p><a href="index.html">Volver al inicio</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <style>
+        /* Estilos específicos para el manual */
+        .manual-content {
+            padding: 120px 0 80px;
+            background: var(--gray-50);
+        }
+
+        .manual-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .manual-header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--gray-900);
+            margin-bottom: 16px;
+        }
+
+        .manual-subtitle {
+            color: var(--gray-600);
+            font-size: 1.2rem;
+        }
+
+        .table-of-contents {
+            background: white;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            margin-bottom: 60px;
+        }
+
+        .table-of-contents h2 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 24px;
+            text-align: center;
+        }
+
+        .toc-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 16px;
+        }
+
+        .toc-item {
+            display: flex;
+            align-items: center;
+            padding: 16px;
+            background: var(--gray-50);
+            border-radius: 12px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .toc-item:hover {
+            background: var(--primary-color);
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(33, 150, 243, 0.3);
+        }
+
+        .toc-number {
+            background: var(--primary-color);
+            color: white;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            margin-right: 12px;
+            font-size: 14px;
+        }
+
+        .toc-item:hover .toc-number {
+            background: white;
+            color: var(--primary-color);
+        }
+
+        .toc-title {
+            font-weight: 500;
+            color: var(--gray-800);
+        }
+
+        .toc-item:hover .toc-title {
+            color: white;
+        }
+
+        .manual-section {
+            background: white;
+            padding: 48px;
+            border-radius: 16px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            margin-bottom: 40px;
+        }
+
+        .manual-section h2 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 32px;
+            border-bottom: 3px solid var(--primary-color);
+            padding-bottom: 16px;
+        }
+
+        .manual-section h3 {
+            font-size: 1.6rem;
+            font-weight: 600;
+            color: var(--gray-800);
+            margin: 32px 0 20px 0;
+        }
+
+        .manual-section h4 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: var(--gray-700);
+            margin: 24px 0 12px 0;
+        }
+
+        .manual-section h5 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--gray-700);
+            margin: 16px 0 8px 0;
+        }
+
+        .intro-card, .objective-card {
+            background: linear-gradient(135deg, #f8faff 0%, #e8f2ff 100%);
+            padding: 32px;
+            border-radius: 16px;
+            border: 2px solid var(--primary-color);
+            margin-bottom: 32px;
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 24px;
+        }
+
+        .benefit-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+        }
+
+        .benefit-icon {
+            font-size: 2rem;
+            background: var(--primary-color);
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .benefit-item h4 {
+            margin: 0 0 8px 0;
+            color: var(--gray-800);
+        }
+
+        .benefit-item p {
+            margin: 0;
+            color: var(--gray-600);
+            line-height: 1.5;
+        }
+
+        .target-users {
+            margin-top: 32px;
+        }
+
+        .users-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 24px;
+        }
+
+        .user-type {
+            text-align: center;
+            padding: 24px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .user-type:hover {
+            transform: translateY(-4px);
+        }
+
+        .user-icon {
+            font-size: 2.5rem;
+            margin-bottom: 12px;
+            display: block;
+        }
+
+        .user-type h4 {
+            margin: 0 0 8px 0;
+            color: var(--gray-800);
+        }
+
+        .user-type p {
+            margin: 0;
+            color: var(--gray-600);
+            font-size: 0.9rem;
+        }
+
+        .step-by-step {
+            background: var(--gray-50);
+            padding: 32px;
+            border-radius: 16px;
+            margin: 32px 0;
+        }
+
+        .step-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 32px;
+            align-items: start;
+        }
+
+        .step-info ol {
+            padding-left: 20px;
+        }
+
+        .step-info li {
+            margin-bottom: 12px;
+            line-height: 1.6;
+        }
+
+        .step-info ul {
+            margin: 8px 0;
+            padding-left: 20px;
+        }
+
+        .step-info ul li {
+            margin-bottom: 6px;
+        }
+
+        .image-placeholder {
+            background: var(--gray-200);
+            border: 2px dashed var(--gray-400);
+            border-radius: 12px;
+            padding: 40px 20px;
+            text-align: center;
+            color: var(--gray-600);
+            font-weight: 500;
+        }
+
+        .tip-box {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 8px;
+            padding: 16px;
+            margin: 16px 0;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+
+        .tip-icon {
+            font-size: 1.2rem;
+            flex-shrink: 0;
+        }
+
+        .tip-box p {
+            margin: 0;
+            color: #856404;
+        }
+
+        .version-comparison {
+            margin: 40px 0;
+        }
+
+        .comparison-table {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            margin-top: 24px;
+        }
+
+        .comparison-column {
+            padding: 32px;
+            border-radius: 16px;
+            border: 2px solid;
+        }
+
+        .comparison-column.free {
+            border-color: var(--gray-400);
+            background: var(--gray-50);
+        }
+
+        .comparison-column.pro {
+            border-color: var(--secondary-color);
+            background: linear-gradient(135deg, #fff8e1 0%, #ffe0b2 100%);
+        }
+
+        .comparison-column h4 {
+            margin: 0 0 20px 0;
+            text-align: center;
+        }
+
+        .comparison-column ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .comparison-column li {
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        .dashboard-image {
+            text-align: center;
+            margin: 32px 0;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 24px 0;
+        }
+
+        .stat-explanation {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            padding: 20px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .stat-icon {
+            font-size: 1.8rem;
+            background: var(--primary-color);
+            color: white;
+            width: 45px;
+            height: 45px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .alert-types, .quick-actions, .nav-items {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin: 24px 0;
+        }
+
+        .alert-type, .action-button, .nav-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            padding: 20px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .alert-icon, .action-icon, .nav-icon {
+            font-size: 1.5rem;
+            background: var(--success-color);
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .pro-feature .alert-icon {
+            background: var(--secondary-color);
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 24px;
+            margin: 32px 0;
+        }
+
+        .feature-item {
+            text-align: center;
+            padding: 24px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 16px;
+            display: block;
+        }
+
+        .pro-features-section {
+            background: linear-gradient(135deg, #fff8e1 0%, #ffe0b2 100%);
+            padding: 32px;
+            border-radius: 16px;
+            border: 2px solid var(--secondary-color);
+            margin: 32px 0;
+        }
+
+        .pro-features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 24px;
+        }
+
+        .pro-feature {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            padding: 20px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .pro-icon {
+            font-size: 1.5rem;
+            background: var(--secondary-color);
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .tips-section {
+            margin: 40px 0;
+        }
+
+        .tips-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 24px;
+        }
+
+        .tip {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            padding: 20px;
+            background: #f0f9ff;
+            border-radius: 12px;
+            border-left: 4px solid var(--info-color);
+        }
+
+        .movement-types {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 32px;
+            margin: 32px 0;
+        }
+
+        .movement-type {
+            padding: 32px;
+            border-radius: 16px;
+            border: 2px solid;
+        }
+
+        .movement-type.entrada {
+            border-color: var(--success-color);
+            background: linear-gradient(135deg, #f0fff4 0%, #dcfce7 100%);
+        }
+
+        .movement-type.salida {
+            border-color: var(--error-color);
+            background: linear-gradient(135deg, #fef2f2 0%, #fecaca 100%);
+        }
+
+        .movement-icon {
+            font-size: 2rem;
+            margin-bottom: 16px;
+            display: block;
+        }
+
+        .result-box {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            border-radius: 8px;
+            padding: 16px;
+            margin: 16px 0;
+        }
+
+        .result-box h5 {
+            margin: 0 0 8px 0;
+            color: #155724;
+        }
+
+        .result-box p {
+            margin: 0;
+            color: #155724;
+        }
+
+        .important-notes {
+            margin: 40px 0;
+        }
+
+        .notes-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 24px;
+        }
+
+        .note {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            padding: 20px;
+            border-radius: 12px;
+            border: 2px solid;
+        }
+
+        .note.warning {
+            border-color: var(--warning-color);
+            background: #fff8e1;
+        }
+
+        .note.info {
+            border-color: var(--info-color);
+            background: #e3f2fd;
+        }
+
+        .note.success {
+            border-color: var(--success-color);
+            background: #f0fff4;
+        }
+
+        .note-icon {
+            font-size: 1.5rem;
+            flex-shrink: 0;
+        }
+
+        @media (max-width: 768px) {
+            .manual-section {
+                padding: 24px;
+                margin: 0 16px 24px 16px;
+            }
+
+            .manual-header h1 {
+                font-size: 2rem;
+            }
+
+            .table-of-contents {
+                padding: 24px;
+                margin: 0 16px 40px 16px;
+            }
+
+            .toc-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .step-content {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .comparison-table {
+                grid-template-columns: 1fr;
+            }
+
+            .movement-types {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+
+    <script>
+        lucide.createIcons();
+        
+        // Smooth scroll para enlaces del índice
+        document.querySelectorAll('.toc-item').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+        
+        // Highlight current section in navigation
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('.manual-section');
+            const tocItems = document.querySelectorAll('.toc-item');
+            
+            let currentSection = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 150;
+                if (window.scrollY >= sectionTop) {
+                    currentSection = section.getAttribute('id');
+                }
+            });
+            
+            tocItems.forEach(item => {
+                item.classList.remove('active');
+                if (item.getAttribute('href') === '#' + currentSection) {
+                    item.classList.add('active');
+                }
+            });
+        });
+    </script>
