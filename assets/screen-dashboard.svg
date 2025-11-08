@@ -1,50 +1,63 @@
 <svg width="260" height="560" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#2196F3;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#1976D2;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
     </linearGradient>
   </defs>
   <rect width="260" height="560" fill="url(#gradient)"/>
+  
+  <!-- Status Bar -->
+  <rect x="0" y="0" width="260" height="30" fill="#000" opacity="0.1"/>
+  <text x="20" y="20" fill="white" font-family="Arial" font-size="12">9:41</text>
+  <text x="220" y="20" fill="white" font-family="Arial" font-size="12">100%</text>
+  
   <!-- Header -->
-  <rect x="20" y="40" width="220" height="40" fill="rgba(255,255,255,0.2)" rx="8"/>
-  <text x="30" y="65" fill="white" font-family="Arial" font-size="18" font-weight="bold">Dashboard</text>
+  <rect x="20" y="50" width="220" height="60" fill="rgba(255,255,255,0.95)" rx="15"/>
+  <text x="35" y="75" fill="#333" font-family="Arial" font-size="20" font-weight="bold">Dashboard</text>
+  <text x="35" y="95" fill="#666" font-family="Arial" font-size="14">Resumen de tu inventario</text>
   
   <!-- Stats Cards -->
-  <rect x="20" y="100" width="100" height="80" fill="white" rx="12"/>
-  <text x="70" y="130" fill="#2196F3" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle">125</text>
-  <text x="70" y="155" fill="#666" font-family="Arial" font-size="12" text-anchor="middle">Productos</text>
+  <rect x="20" y="130" width="105" height="90" fill="white" rx="15" opacity="0.95"/>
+  <circle cx="50" cy="155" r="12" fill="#2196F3"/>
+  <text x="50" y="161" fill="white" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">📦</text>
+  <text x="75" y="155" fill="#2196F3" font-family="Arial" font-size="24" font-weight="bold">125</text>
+  <text x="35" y="180" fill="#666" font-family="Arial" font-size="12">Productos totales</text>
+  <text x="35" y="195" fill="#4CAF50" font-family="Arial" font-size="12">+12 esta semana</text>
   
-  <rect x="140" y="100" width="100" height="80" fill="white" rx="12"/>
-  <text x="190" y="130" fill="#4CAF50" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle">48</text>
-  <text x="190" y="155" fill="#666" font-family="Arial" font-size="12" text-anchor="middle">Ventas Hoy</text>
+  <rect x="135" y="130" width="105" height="90" fill="white" rx="15" opacity="0.95"/>
+  <circle cx="165" cy="155" r="12" fill="#4CAF50"/>
+  <text x="165" y="161" fill="white" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">💰</text>
+  <text x="190" y="155" fill="#4CAF50" font-family="Arial" font-size="24" font-weight="bold">$2.4K</text>
+  <text x="150" y="180" fill="#666" font-family="Arial" font-size="12">Ventas del mes</text>
+  <text x="150" y="195" fill="#4CAF50" font-family="Arial" font-size="12">+18% vs anterior</text>
   
-  <!-- Chart Area -->
-  <rect x="20" y="200" width="220" height="150" fill="white" rx="12"/>
-  <text x="30" y="225" fill="#333" font-family="Arial" font-size="16" font-weight="bold">Ventas Semanales</text>
+  <!-- Chart Section -->
+  <rect x="20" y="240" width="220" height="160" fill="white" rx="15" opacity="0.95"/>
+  <text x="35" y="265" fill="#333" font-family="Arial" font-size="16" font-weight="bold">Ventas últimos 7 días</text>
   
-  <!-- Simple Chart -->
-  <line x1="40" y1="320" x2="60" y2="300" stroke="#2196F3" stroke-width="3"/>
-  <line x1="60" y1="300" x2="80" y2="280" stroke="#2196F3" stroke-width="3"/>
-  <line x1="80" y1="280" x2="100" y2="290" stroke="#2196F3" stroke-width="3"/>
-  <line x1="100" y1="290" x2="120" y2="260" stroke="#2196F3" stroke-width="3"/>
-  <line x1="120" y1="260" x2="140" y2="250" stroke="#2196F3" stroke-width="3"/>
-  <line x1="140" y1="250" x2="160" y2="240" stroke="#2196F3" stroke-width="3"/>
-  <line x1="160" y1="240" x2="180" y2="270" stroke="#2196F3" stroke-width="3"/>
-  <line x1="180" y1="270" x2="200" y2="255" stroke="#2196F3" stroke-width="3"/>
-  <line x1="200" y1="255" x2="220" y2="245" stroke="#2196F3" stroke-width="3"/>
+  <!-- Mini Chart -->
+  <path d="M 40 360 Q 60 340 80 350 Q 100 330 120 340 Q 140 320 160 330 Q 180 310 200 320 Q 220 300 240 310" 
+        stroke="#2196F3" stroke-width="3" fill="none"/>
+  <circle cx="40" cy="360" r="4" fill="#2196F3"/>
+  <circle cx="80" cy="350" r="4" fill="#2196F3"/>
+  <circle cx="120" cy="340" r="4" fill="#2196F3"/>
+  <circle cx="160" cy="330" r="4" fill="#2196F3"/>
+  <circle cx="200" cy="320" r="4" fill="#2196F3"/>
   
   <!-- Quick Actions -->
-  <rect x="20" y="380" width="220" height="120" fill="white" rx="12"/>
-  <text x="30" y="405" fill="#333" font-family="Arial" font-size="16" font-weight="bold">Acciones Rápidas</text>
+  <rect x="20" y="420" width="220" height="120" fill="white" rx="15" opacity="0.95"/>
+  <text x="35" y="445" fill="#333" font-family="Arial" font-size="16" font-weight="bold">Acciones rápidas</text>
   
-  <!-- Action Buttons -->
-  <rect x="30" y="420" width="90" height="35" fill="#2196F3" rx="8"/>
-  <text x="75" y="442" fill="white" font-family="Arial" font-size="12" text-anchor="middle">Agregar +</text>
-  <rect x="140" y="420" width="90" height="35" fill="#4CAF50" rx="8"/>
-  <text x="185" y="442" fill="white" font-family="Arial" font-size="12" text-anchor="middle">Escanear</text>
-  <rect x="30" y="465" width="90" height="35" fill="#FF9800" rx="8"/>
-  <text x="75" y="487" fill="white" font-family="Arial" font-size="12" text-anchor="middle">Reportes</text>
-  <rect x="140" y="465" width="90" height="35" fill="#9C27B0" rx="8"/>
-  <text x="185" y="487" fill="white" font-family="Arial" font-size="12" text-anchor="middle">Catálogos</text>
+  <rect x="35" y="460" width="85" height="35" fill="#2196F3" rx="8"/>
+  <text x="77" y="482" fill="white" font-family="Arial" font-size="12" text-anchor="middle">+ Producto</text>
+  
+  <rect x="140" y="460" width="85" height="35" fill="#4CAF50" rx="8"/>
+  <text x="182" y="482" fill="white" font-family="Arial" font-size="12" text-anchor="middle">📱 Escanear</text>
+  
+  <rect x="35" y="505" width="85" height="25" fill="#FF9800" rx="6"/>
+  <text x="77" y="521" fill="white" font-family="Arial" font-size="11" text-anchor="middle">📊 Reportes</text>
+  
+  <rect x="140" y="505" width="85" height="25" fill="#9C27B0" rx="6"/>
+  <text x="182" y="521" fill="white" font-family="Arial" font-size="11" text-anchor="middle">📄 Catálogo</text>
 </svg>
