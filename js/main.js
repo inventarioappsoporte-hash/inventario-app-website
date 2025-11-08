@@ -370,7 +370,7 @@ function updateTextsToEnglish() {
         'Tutoriales': 'Tutorials',
         'Legal': 'Legal',
         'Política de privacidad': 'Privacy Policy',
-        'Términos de uso': 'Terms of use',
+        'Términos de uso': 'Terms of Service',
         'Cookies': 'Cookies',
         'Licencias': 'Licenses',
         '© 2025 Inventario App. Todos los derechos reservados.': '© 2025 Inventory App. All rights reserved.',
@@ -426,6 +426,17 @@ function updateTextsToEnglish() {
             .replace('precisión', 'precision')
             .replace('y sin complicaciones', 'and without complications');
     }
+    
+    // Actualizar enlaces a páginas legales
+    const privacyLinks = document.querySelectorAll('a[href="privacy.html"]');
+    privacyLinks.forEach(link => {
+        link.href = 'privacy-en.html';
+    });
+    
+    const termsLinks = document.querySelectorAll('a[href="terms.html"]');
+    termsLinks.forEach(link => {
+        link.href = 'terms-en.html';
+    });
     
     // Traducir atributos específicos
     const placeholders = {
