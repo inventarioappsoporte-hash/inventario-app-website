@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventario App - Control de Stock Profesional</title>
+    <meta name="description" content="Gestiona tu inventario y control de stock desde tu celular. Funciona sin internet, con reportes automáticos y respaldos seguros. ¡Prueba gratis!">
+    <meta name="keywords" content="inventario, stock, control, app móvil, offline, pequeños negocios, gestión">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Inventario App - Control de Stock Profesional">
+    <meta property="og:description" content="La app de inventario más completa para pequeños negocios. Funciona sin internet y protege tus datos.">
+    <meta property="og:image" content="assets/og-image.png">
+    <meta property="og:type" content="website">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="assets/logo.png" alt="Inventario App" class="logo">
+                <span class="brand-name">Inventario App</span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#inicio" class="nav-link">Inicio</a>
+                <a href="#caracteristicas" class="nav-link">Características</a>
+                <a href="#precios" class="nav-link">Precios</a>
+                <a href="#testimonios" class="nav-link">Testimonios</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+                <a href="#contacto" class="nav-link">Contacto</a>
+                <div class="language-selector">
+                    <button class="lang-btn active" data-lang="es">ES</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <i data-lucide="menu"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title fade-in">
+                        Controlá tu stock con <span class="text-gradient">precisión</span> y sin complicaciones
+                    </h1>
+                    <p class="hero-subtitle fade-in-delay">
+                        Inventario App te ayuda a administrar tus productos, ventas y reportes desde tu celular o tablet. 
+                        <strong>Funciona 100% offline</strong> y protege tus datos con respaldos automáticos.
+                    </p>
+                    <div class="hero-buttons fade-in-delay-2">
+                        <a href="#precios" class="btn btn-primary">
+                            <i data-lucide="play-circle"></i>
+                            Probar Gratis
+                        </a>
+                        <a href="#" class="btn btn-secondary">
+                            <i data-lucide="smartphone"></i>
+                            Descargar en Google Play
+                        </a>
+                    </div>
+                    <div class="hero-stats fade-in-delay-3">
+                        <div class="stat">
+                            <span class="stat-number">25</span>
+                            <span class="stat-label">Productos Gratis</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Offline</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">0€</span>
+                            <span class="stat-label">Para Empezar</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="phone-mockup">
+                        <img src="assets/app-screenshot.png" alt="Inventario App Screenshot" class="app-screenshot">
+                        <div class="floating-card card-1">
+                            <i data-lucide="trending-up"></i>
+                            <span>Stock en tiempo real</span>
+                        </div>
+                        <div class="floating-card card-2">
+                            <i data-lucide="shield-check"></i>
+                            <span>100% Seguro</span>
+                        </div>
+                        <div class="floating-card card-3">
+                            <i data-lucide="wifi-off"></i>
+                            <span>Sin Internet</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="caracteristicas" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Todo lo que necesitas para tu negocio</h2>
+                <p class="section-subtitle">
+                    Funcionalidades diseñadas específicamente para pequeños negocios y emprendimientos
+                </p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i data-lucide="activity"></i>
+                    </div>
+                    <h3>Gestión en Tiempo Real</h3>
+                    <p>Controla tu stock al instante. Cada entrada y salida se registra automáticamente con alertas de bajo inventario.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i data-lucide="bar-chart-3"></i>
+                    </div>
+                    <h3>Reportes Automáticos</h3>
+                    <p>Estadísticas detalladas, gráficos de ventas y análisis de rentabilidad. Exporta todo a Excel con un clic.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i data-lucide="scan-line"></i>
+                    </div>
+                    <h3>Escaneo de Códigos</h3>
+                    <p>Escanea códigos de barras para agregar productos rápidamente. Compatible con todos los formatos estándar.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i data-lucide="wifi-off"></i>
+                    </div>
+                    <h3>Modo Offline Completo</h3>
+                    <p>Funciona perfectamente sin conexión a internet. Todos tus datos se guardan localmente en tu dispositivo.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i data-lucide="users"></i>
+                    </div>
+                    <h3>Control de Usuarios</h3>
+                    <p>Protege tu información con PIN y huella dactilar. Controla quién puede acceder a tu inventario.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i data-lucide="cloud-upload"></i>
+                    </div>
+                    <h3>Sincronización Segura</h3>
+                    <p>Respaldos automáticos en Google Drive. Tus datos siempre protegidos y sincronizados entre dispositivos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Security Section -->
+    <section class="security">
+        <div class="container">
+            <div class="security-content">
+                <div class="security-text">
+                    <h2>Tus datos siempre protegidos</h2>
+                    <p>
+                        Guardamos todo con cifrado de nivel bancario y copias automáticas. 
+                        Tu información nunca sale de tus dispositivos sin tu autorización.
+                    </p>
+                    <div class="security-features">
+                        <div class="security-item">
+                            <i data-lucide="lock"></i>
+                            <span>Cifrado de extremo a extremo</span>
+                        </div>
+                        <div class="security-item">
+                            <i data-lucide="cloud"></i>
+                            <span>Respaldos automáticos</span>
+                        </div>
+                        <div class="security-item">
+                            <i data-lucide="database"></i>
+                            <span>Almacenamiento local seguro</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="security-visual">
+                    <div class="security-shield">
+                        <i data-lucide="shield-check"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonios" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Lo que dicen nuestros usuarios</h2>
+                <p class="section-subtitle">Miles de negocios ya confían en Inventario App</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i data-lucide="star"></i>
+                            <i data-lucide="star"></i>
+                            <i data-lucide="star"></i>
+                            <i data-lucide="star"></i>
+                            <i data-lucide="star"></i>
+                        </div>
+                        <p>"Desde que uso Inventario App, mi control de stock es perfecto. Ya no pierdo ventas por falta de productos."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="assets/avatar-1.jpg" alt="Lucía" class="avatar">
+                        <div>
+                            <h4>Lucía Martínez</h4>
+                            <span>Tienda de Ropa</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i data-lucide="star"></i>
+                            <i data-lucide="star"></i>
+                            <i data-lucide="star"></i>
+                            <i data-lucide="star"></i>
+                            <i data-lucide="star"></i>
+                        </div>
+                        <p>"La función offline es increíble. Puedo trabajar en mi almacén sin preocuparme por la conexión a internet."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="assets/avatar-2.jpg" alt="Carlos" class="avatar">
+                        <div>
+                            <h4>Carlos Rodríguez</h4>
+                            <span>Ferretería</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i data-lucide="star"></i>
+                            <i data-lucide="star"></i>
+                            <i data-lucide="star"></i>
+                            <i data-lucide="star"></i>
+                            <i data-lucide="star"></i>
+                        </div>
+                        <p>"Los reportes automáticos me ayudan a tomar mejores decisiones. Ahora sé exactamente qué productos vender más."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="assets/avatar-3.jpg" alt="Ana" class="avatar">
+                        <div>
+                            <h4>Ana García</h4>
+                            <span>Minimarket</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="precios" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Planes diseñados para tu negocio</h2>
+                <p class="section-subtitle">Comienza gratis y actualiza cuando tu negocio crezca</p>
+            </div>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Plan Gratuito</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">0</span>
+                            <span class="period">para siempre</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <div class="feature">
+                            <i data-lucide="check"></i>
+                            <span>Hasta 25 productos</span>
+                        </div>
+                        <div class="feature">
+                            <i data-lucide="check"></i>
+                            <span>5 categorías</span>
+                        </div>
+                        <div class="feature">
+                            <i data-lucide="check"></i>
+                            <span>Funcionamiento offline</span>
+                        </div>
+                        <div class="feature">
+                            <i data-lucide="check"></i>
+                            <span>Alertas de bajo stock</span>
+                        </div>
+                        <div class="feature">
+                            <i data-lucide="check"></i>
+                            <span>Reportes básicos</span>
+                        </div>
+                        <div class="feature">
+                            <i data-lucide="check"></i>
+                            <span>Soporte por email</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-outline">Empezar Gratis</a>
+                </div>
+                
+                <div class="pricing-card featured">
+                    <div class="popular-badge">Más Popular</div>
+                    <div class="pricing-header">
+                        <h3>Plan Premium</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">4.99</span>
+                            <span class="period">pago único</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <div class="feature">
+                            <i data-lucide="check"></i>
+                            <span>Productos ilimitados</span>
+                        </div>
+                        <div class="feature">
+                            <i data-lucide="check"></i>
+                            <span>Categorías ilimitadas</span>
+                        </div>
+                        <div class="feature">
+                            <i data-lucide="check"></i>
+                            <span>Escaneo de códigos de barras</span>
+                        </div>
+                        <div class="feature">
+                            <i data-lucide="check"></i>
+                            <span>Reportes avanzados con gráficos</span>
+                        </div>
+                        <div class="feature">
+                            <i data-lucide="check"></i>
+                            <span>Exportación a CSV/Excel</span>
+                        </div>
+                        <div class="feature">
+                            <i data-lucide="check"></i>
+                            <span>Respaldos automáticos en nube</span>
+                        </div>
+                        <div class="feature">
+                            <i data-lucide="check"></i>
+                            <span>Seguridad con PIN y huella</span>
+                        </div>
+                        <div class="feature">
+                            <i data-lucide="check"></i>
+                            <span>Soporte prioritario</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary">Elegir Premium</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Preguntas Frecuentes</h2>
+                <p class="section-subtitle">Resolvemos tus dudas más comunes</p>
+            </div>
+            
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Puedo usar la app sin conexión a internet?</h3>
+                        <i data-lucide="chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>¡Absolutamente! Inventario App está diseñada para funcionar 100% offline. Todos tus datos se guardan localmente en tu dispositivo, por lo que puedes gestionar tu inventario sin necesidad de conexión a internet.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Mis datos se guardan en la nube?</h3>
+                        <i data-lucide="chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>En el plan gratuito, todos los datos se guardan únicamente en tu dispositivo. Con el plan Premium, puedes activar respaldos automáticos en Google Drive para mayor seguridad, pero siempre bajo tu control.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Puedo exportar mis productos a Excel?</h3>
+                        <i data-lucide="chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sí, con el plan Premium puedes exportar todos tus datos (productos, movimientos, reportes) a formato CSV que es totalmente compatible con Excel y otras hojas de cálculo.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Qué pasa si cambio de teléfono?</h3>
+                        <i data-lucide="chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Con el plan Premium y los respaldos automáticos activados, puedes restaurar todos tus datos en el nuevo dispositivo. También puedes crear respaldos manuales para transferir tu información.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿La app funciona en tablets?</h3>
+                        <i data-lucide="chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>¡Por supuesto! Inventario App está optimizada para funcionar tanto en teléfonos como en tablets Android, adaptándose perfectamente a cualquier tamaño de pantalla.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Hay límite en el número de productos?</h3>
+                        <i data-lucide="chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>El plan gratuito permite hasta 25 productos, perfecto para empezar. Con el plan Premium no hay límites: puedes agregar tantos productos como necesites para tu negocio.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>¿Necesitas ayuda?</h2>
+                    <p>Estamos aquí para ayudarte a hacer crecer tu negocio. Contáctanos y te responderemos lo antes posible.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i data-lucide="mail"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>soporte@inventarioapp.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i data-lucide="message-circle"></i>
+                            <div>
+                                <h4>Chat en vivo</h4>
+                                <p>Lun - Vie, 9:00 - 18:00</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i data-lucide="book-open"></i>
+                            <div>
+                                <h4>Centro de ayuda</h4>
+                                <p>Guías y tutoriales</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form action="https://formspree.io/f/xdkogkvo" method="POST" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Asunto</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Selecciona un tema</option>
+                                <option value="soporte">Soporte técnico</option>
+                                <option value="ventas">Consulta de ventas</option>
+                                <option value="sugerencia">Sugerencia</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i data-lucide="send"></i>
+                            Enviar Mensaje
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <img src="assets/logo.png" alt="Inventario App" class="footer-logo">
+                        <span class="brand-name">Inventario App</span>
+                    </div>
+                    <p>La solución completa para gestionar tu inventario sin complicaciones. Funciona offline y protege tus datos.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">
+                            <i data-lucide="facebook"></i>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <i data-lucide="instagram"></i>
+                        </a>
+                        <a href="#" aria-label="LinkedIn">
+                            <i data-lucide="linkedin"></i>
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <i data-lucide="twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Producto</h4>
+                    <ul>
+                        <li><a href="#caracteristicas">Características</a></li>
+                        <li><a href="#precios">Precios</a></li>
+                        <li><a href="#">Descargar</a></li>
+                        <li><a href="#">Actualizaciones</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Soporte</h4>
+                    <ul>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                        <li><a href="#">Centro de ayuda</a></li>
+                        <li><a href="#">Tutoriales</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy.html">Política de privacidad</a></li>
+                        <li><a href="terms.html">Términos de uso</a></li>
+                        <li><a href="#">Cookies</a></li>
+                        <li><a href="#">Licencias</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Inventario App. Todos los derechos reservados.</p>
+                <p>Hecho con ❤️ para pequeños negocios</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>

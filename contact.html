@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Inventario App</title>
+    <meta name="description" content="Contáctanos para soporte, consultas o sugerencias sobre Inventario App. Estamos aquí para ayudarte.">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="assets/logo.png" alt="Inventario App" class="logo">
+                <span class="brand-name">Inventario App</span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Inicio</a>
+                <a href="index.html#caracteristicas" class="nav-link">Características</a>
+                <a href="index.html#precios" class="nav-link">Precios</a>
+                <a href="index.html#faq" class="nav-link">FAQ</a>
+                <a href="#contacto" class="nav-link">Contacto</a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <i data-lucide="menu"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Hero -->
+    <section class="contact-hero">
+        <div class="container">
+            <div class="contact-hero-content">
+                <h1 class="fade-in">¿Necesitas ayuda?</h1>
+                <p class="fade-in-delay">Estamos aquí para ayudarte a hacer crecer tu negocio. Contáctanos y te responderemos lo antes posible.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Methods -->
+    <section id="contacto" class="contact-methods-section">
+        <div class="container">
+            <div class="contact-methods-grid">
+                <div class="contact-method-card animate-on-scroll">
+                    <div class="method-icon">
+                        <i data-lucide="mail"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p>Respuesta en menos de 24 horas</p>
+                    <a href="mailto:soporte@inventarioapp.com" class="contact-link">soporte@inventarioapp.com</a>
+                </div>
+
+                <div class="contact-method-card animate-on-scroll">
+                    <div class="method-icon">
+                        <i data-lucide="message-circle"></i>
+                    </div>
+                    <h3>Chat en Vivo</h3>
+                    <p>Lunes a Viernes, 9:00 - 18:00</p>
+                    <button class="contact-link" onclick="openChat()">Iniciar Chat</button>
+                </div>
+
+                <div class="contact-method-card animate-on-scroll">
+                    <div class="method-icon">
+                        <i data-lucide="phone"></i>
+                    </div>
+                    <h3>Teléfono</h3>
+                    <p>Soporte técnico directo</p>
+                    <a href="tel:+1234567890" class="contact-link">+1 (234) 567-890</a>
+                </div>
+
+                <div class="contact-method-card animate-on-scroll">
+                    <div class="method-icon">
+                        <i data-lucide="book-open"></i>
+                    </div>
+                    <h3>Centro de Ayuda</h3>
+                    <p>Guías y tutoriales</p>
+                    <a href="#faq" class="contact-link">Ver Recursos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="contact-form-content">
+                <div class="form-info animate-on-scroll from-left">
+                    <h2>Envíanos un mensaje</h2>
+                    <p>Completa el formulario y nos pondremos en contacto contigo lo antes posible.</p>
+                    
+                    <div class="response-times">
+                        <div class="response-item">
+                            <i data-lucide="clock"></i>
+                            <div>
+                                <h4>Tiempo de respuesta</h4>
+                                <p>Menos de 24 horas</p>
+                            </div>
+                        </div>
+                        <div class="response-item">
+                            <i data-lucide="users"></i>
+                            <div>
+                                <h4>Soporte especializado</h4>
+                                <p>Expertos en inventario</p>
+                            </div>
+                        </div>
+                        <div class="response-item">
+                            <i data-lucide="shield-check"></i>
+                            <div>
+                                <h4>Información segura</h4>
+                                <p>Tus datos están protegidos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container animate-on-scroll from-right">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">Nombre *</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Apellido *</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Teléfono</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company">Empresa/Negocio</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Tipo de consulta *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Selecciona un tema</option>
+                                <option value="soporte-tecnico">Soporte técnico</option>
+                                <option value="consulta-ventas">Consulta de ventas</option>
+                                <option value="problema-app">Problema con la app</option>
+                                <option value="sugerencia">Sugerencia de mejora</option>
+                                <option value="facturacion">Facturación y pagos</option>
+                                <option value="partnership">Asociación comercial</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="priority">Prioridad</label>
+                            <select id="priority" name="priority">
+                                <option value="baja">Baja</option>
+                                <option value="media" selected>Media</option>
+                                <option value="alta">Alta</option>
+                                <option value="urgente">Urgente</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Mensaje *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Describe tu consulta o problema en detalle..."></textarea>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="newsletter" name="newsletter">
+                                <span class="checkmark"></span>
+                                Quiero recibir actualizaciones y noticias sobre Inventario App
+                            </label>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="privacy" name="privacy" required>
+                                <span class="checkmark"></span>
+                                Acepto la <a href="privacy.html" target="_blank">Política de Privacidad</a> *
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-large">
+                            <i data-lucide="send"></i>
+                            Enviar Mensaje
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Preguntas Frecuentes</h2>
+                <p>Encuentra respuestas rápidas a las consultas más comunes</p>
+            </div>
+
+            <div class="faq-categories">
+                <button class="faq-category active" data-category="general">General</button>
+                <button class="faq-category" data-category="tecnico">Técnico</button>
+                <button class="faq-category" data-category="facturacion">Facturación</button>
+                <button class="faq-category" data-category="funciones">Funciones</button>
+            </div>
+
+            <div class="faq-content">
+                <div class="faq-category-content active" data-category="general">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>¿Cómo empiezo a usar Inventario App?</h3>
+                            <i data-lucide="chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Simplemente descarga la app desde Google Play, ábrela y comienza agregando tus primeros productos. La versión gratuita te permite hasta 25 productos para que puedas probar todas las funciones básicas.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>¿Necesito internet para usar la app?</h3>
+                            <i data-lucide="chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>No, Inventario App funciona completamente offline. Todos tus datos se guardan en tu dispositivo y puedes usar todas las funciones sin conexión a internet.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>¿Qué diferencia hay entre la versión gratuita y PRO?</h3>
+                            <i data-lucide="chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>La versión gratuita permite hasta 25 productos y 5 categorías. La versión PRO ($4.99 pago único) incluye productos ilimitados, escaneo de códigos, reportes avanzados, respaldos en la nube y muchas funciones más.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-category-content" data-category="tecnico">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>¿En qué dispositivos funciona la app?</h3>
+                            <i data-lucide="chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Inventario App está disponible para Android (versión 5.0 o superior) y funciona tanto en teléfonos como en tablets. Próximamente estará disponible para iOS.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>¿Cómo hago un respaldo de mis datos?</h3>
+                            <i data-lucide="chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>En la versión PRO puedes activar respaldos automáticos en Google Drive o crear respaldos manuales. También puedes exportar tus datos a CSV desde la sección de reportes.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-category-content" data-category="facturacion">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>¿Cómo actualizo a la versión PRO?</h3>
+                            <i data-lucide="chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Desde la app, ve a Configuración > Actualizar a PRO. El pago se procesa a través de Google Play Store de forma segura.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>¿Puedo solicitar un reembolso?</h3>
+                            <i data-lucide="chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Sí, puedes solicitar un reembolso dentro de las primeras 48 horas a través de Google Play Store, o contáctanos directamente si tienes algún problema.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-category-content" data-category="funciones">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>¿Puedo escanear códigos de barras?</h3>
+                            <i data-lucide="chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Sí, la función de escaneo de códigos de barras está disponible en la versión PRO. Puedes usarla para agregar productos rápidamente o buscar productos existentes.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>¿Cómo exporto mis datos a Excel?</h3>
+                            <i data-lucide="chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>En la versión PRO, ve a Reportes > Exportar Datos > CSV. El archivo generado es compatible con Excel y otras hojas de cálculo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <img src="assets/logo.png" alt="Inventario App" class="footer-logo">
+                        <span class="brand-name">Inventario App</span>
+                    </div>
+                    <p>La solución completa para gestionar tu inventario sin complicaciones.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="index.html#caracteristicas">Características</a></li>
+                        <li><a href="index.html#precios">Precios</a></li>
+                        <li><a href="index.html#testimonios">Testimonios</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Soporte</h4>
+                    <ul>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="mailto:soporte@inventarioapp.com">Email</a></li>
+                        <li><a href="tel:+1234567890">Teléfono</a></li>
+                        <li><a href="#">Centro de ayuda</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy.html">Política de privacidad</a></li>
+                        <li><a href="terms.html">Términos de uso</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Inventario App. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        // FAQ Categories
+        document.querySelectorAll('.faq-category').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const category = btn.dataset.category;
+                
+                // Update active button
+                document.querySelectorAll('.faq-category').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                
+                // Show corresponding content
+                document.querySelectorAll('.faq-category-content').forEach(content => {
+                    content.classList.remove('active');
+                });
+                document.querySelector(`[data-category="${category}"].faq-category-content`).classList.add('active');
+            });
+        });
+
+        // Chat function
+        function openChat() {
+            // Aquí integrarías con tu sistema de chat
+            alert('Chat en vivo próximamente disponible. Por ahora, envíanos un email a soporte@inventarioapp.com');
+        }
+
+        lucide.createIcons();
+    </script>
+
+    <style>
+        .contact-hero {
+            padding: 120px 0 80px;
+            background: var(--gradient-primary);
+            color: white;
+            text-align: center;
+        }
+
+        .contact-hero h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .contact-hero p {
+            font-size: 1.25rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact-methods-section {
+            padding: 80px 0;
+            background: var(--gray-50);
+        }
+
+        .contact-methods-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .contact-method-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 1rem;
+            text-align: center;
+            box-shadow: var(--shadow-md);
+            transition: var(--transition-normal);
+        }
+
+        .contact-method-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-xl);
+        }
+
+        .method-icon {
+            width: 80px;
+            height: 80px;
+            background: var(--gradient-primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+            color: white;
+        }
+
+        .contact-method-card h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--gray-900);
+        }
+
+        .contact-method-card p {
+            color: var(--gray-600);
+            margin-bottom: 1rem;
+        }
+
+        .contact-link {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+            border: none;
+            background: none;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .contact-link:hover {
+            text-decoration: underline;
+        }
+
+        .contact-form-section {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .contact-form-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: start;
+        }
+
+        .form-info h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--gray-900);
+            margin-bottom: 1rem;
+        }
+
+        .form-info p {
+            font-size: 1.125rem;
+            color: var(--gray-600);
+            margin-bottom: 2rem;
+        }
+
+        .response-times {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .response-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .response-item i {
+            width: 24px;
+            height: 24px;
+            color: var(--primary-color);
+        }
+
+        .response-item h4 {
+            font-weight: 600;
+            color: var(--gray-900);
+            margin-bottom: 0.25rem;
+        }
+
+        .response-item p {
+            color: var(--gray-600);
+            margin: 0;
+        }
+
+        .contact-form-container {
+            background: var(--gray-50);
+            padding: 2rem;
+            border-radius: 1rem;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+
+        .checkbox-group {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+        }
+
+        .checkbox-label {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+            cursor: pointer;
+            line-height: 1.5;
+        }
+
+        .checkmark {
+            width: 20px;
+            height: 20px;
+            border: 2px solid var(--gray-300);
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition-fast);
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        input[type="checkbox"]:checked + .checkmark {
+            background: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+
+        input[type="checkbox"]:checked + .checkmark::after {
+            content: '✓';
+            color: white;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        input[type="checkbox"] {
+            display: none;
+        }
+
+        .btn-large {
+            padding: 1rem 2rem;
+            font-size: 1.125rem;
+            width: 100%;
+        }
+
+        .faq-section {
+            padding: 80px 0;
+            background: var(--gray-50);
+        }
+
+        .faq-categories {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 3rem;
+            flex-wrap: wrap;
+        }
+
+        .faq-category {
+            padding: 0.75rem 1.5rem;
+            border: 2px solid var(--gray-300);
+            background: white;
+            color: var(--gray-600);
+            border-radius: 2rem;
+            cursor: pointer;
+            transition: var(--transition-fast);
+            font-weight: 500;
+        }
+
+        .faq-category.active,
+        .faq-category:hover {
+            background: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+        }
+
+        .faq-category-content {
+            display: none;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-category-content.active {
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            .contact-hero h1 {
+                font-size: 2rem;
+            }
+
+            .contact-form-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+
+            .contact-methods-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .faq-categories {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</body>
+</html>
