@@ -1,39 +1,38 @@
 <svg width="260" height="560" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#2E7D32;stop-opacity:1" />
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5F5F5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FAFAFA;stop-opacity:1" />
     </linearGradient>
   </defs>
-  <rect width="260" height="560" fill="url(#gradient)"/>
+  <rect width="260" height="560" fill="url(#bg)"/>
   
   <!-- Status Bar -->
-  <rect x="0" y="0" width="260" height="30" fill="#000" opacity="0.2"/>
-  <text x="20" y="20" fill="white" font-family="Arial" font-size="12">9:41</text>
-  <text x="220" y="20" fill="white" font-family="Arial" font-size="12">100%</text>
+  <rect x="0" y="0" width="260" height="30" fill="#000" opacity="0.1"/>
+  <text x="20" y="20" fill="#333" font-family="Arial" font-size="12">9:41</text>
+  <text x="220" y="20" fill="#333" font-family="Arial" font-size="12">100%</text>
   
-  <!-- Header -->
-  <rect x="20" y="50" width="220" height="50" fill="rgba(255,255,255,0.1)" rx="12"/>
-  <text x="35" y="75" fill="white" font-family="Arial" font-size="18" font-weight="bold">Escáner de Códigos</text>
-  <text x="35" y="92" fill="rgba(255,255,255,0.8)" font-family="Arial" font-size="12">Apunta la cámara al código</text>
+  <!-- PRO Feature Notice -->
+  <rect x="16" y="50" width="228" height="40" fill="#FF9800" rx="8"/>
+  <circle cx="35" cy="70" r="10" fill="white"/>
+  <text x="35" y="76" fill="#FF9800" font-family="Arial" font-size="12" text-anchor="middle">★</text>
+  <text x="130" y="68" fill="white" font-family="Arial" font-size="12" text-anchor="middle">Función PRO</text>
+  <text x="130" y="82" fill="white" font-family="Arial" font-size="10" text-anchor="middle">Escaneo de códigos de barras disponible en versión PRO</text>
   
-  <!-- Camera Viewfinder -->
-  <rect x="30" y="120" width="200" height="280" fill="rgba(0,0,0,0.7)" rx="20"/>
+  <!-- Camera Viewfinder (Simulated) -->
+  <rect x="30" y="110" width="200" height="300" fill="#000" rx="20"/>
   
   <!-- Scanning Frame -->
-  <rect x="60" y="200" width="140" height="120" fill="none" stroke="#00E676" stroke-width="4" rx="8"/>
+  <rect x="60" y="190" width="140" height="120" fill="none" stroke="#4CAF50" stroke-width="4" rx="8"/>
   
   <!-- Corner Brackets -->
-  <path d="M 55 195 L 55 185 L 65 185" stroke="#00E676" stroke-width="6" fill="none" stroke-linecap="round"/>
-  <path d="M 195 185 L 205 185 L 205 195" stroke="#00E676" stroke-width="6" fill="none" stroke-linecap="round"/>
-  <path d="M 205 325 L 205 335 L 195 335" stroke="#00E676" stroke-width="6" fill="none" stroke-linecap="round"/>
-  <path d="M 65 335 L 55 335 L 55 325" stroke="#00E676" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M 55 185 L 55 175 L 65 175" stroke="#4CAF50" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M 195 175 L 205 175 L 205 185" stroke="#4CAF50" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M 205 325 L 205 335 L 195 335" stroke="#4CAF50" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M 65 335 L 55 335 L 55 325" stroke="#4CAF50" stroke-width="6" fill="none" stroke-linecap="round"/>
   
-  <!-- Scanning Line Animation -->
-  <line x1="65" y1="240" x2="195" y2="240" stroke="#00E676" stroke-width="2" opacity="0.8">
-    <animate attributeName="y1" values="205;315;205" dur="2s" repeatCount="indefinite"/>
-    <animate attributeName="y2" values="205;315;205" dur="2s" repeatCount="indefinite"/>
-  </line>
+  <!-- Scanning Line -->
+  <line x1="65" y1="240" x2="195" y2="240" stroke="#4CAF50" stroke-width="2" opacity="0.8"/>
   
   <!-- Sample Barcode -->
   <rect x="90" y="230" width="80" height="40" fill="white" rx="4"/>
@@ -61,14 +60,20 @@
   </g>
   
   <!-- Instructions -->
-  <rect x="20" y="420" width="220" height="80" fill="rgba(255,255,255,0.95)" rx="15"/>
-  <text x="35" y="445" fill="#333" font-family="Arial" font-size="14" font-weight="bold">Instrucciones:</text>
-  <text x="35" y="465" fill="#666" font-family="Arial" font-size="12">• Mantén el código dentro del marco</text>
-  <text x="35" y="480" fill="#666" font-family="Arial" font-size="12">• Asegúrate de tener buena iluminación</text>
-  <text x="35" y="495" fill="#666" font-family="Arial" font-size="12">• El escaneo es automático</text>
+  <text x="130" y="140" fill="white" font-family="Arial" font-size="14" text-anchor="middle">Coloca el código de barras</text>
+  <text x="130" y="160" fill="white" font-family="Arial" font-size="14" text-anchor="middle">dentro del marco verde</text>
   
-  <!-- Scan Button -->
-  <circle cx="130" cy="520" r="20" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="2"/>
-  <circle cx="130" cy="520" r="12" fill="white"/>
-  <circle cx="130" cy="520" r="6" fill="#4CAF50"/>
+  <text x="130" y="350" fill="white" font-family="Arial" font-size="12" text-anchor="middle">El escaneo es automático</text>
+  <text x="130" y="370" fill="white" font-family="Arial" font-size="12" text-anchor="middle">cuando detecte el código</text>
+  
+  <!-- Instructions Card -->
+  <rect x="16" y="430" width="228" height="80" fill="white" rx="12" stroke="#E0E0E0"/>
+  <text x="25" y="450" fill="#333" font-family="Arial" font-size="14" font-weight="bold">Cómo usar el escáner:</text>
+  <text x="25" y="470" fill="#666" font-family="Arial" font-size="12">• Mantén el código dentro del marco</text>
+  <text x="25" y="485" fill="#666" font-family="Arial" font-size="12">• Asegúrate de tener buena iluminación</text>
+  <text x="25" y="500" fill="#666" font-family="Arial" font-size="12">• El producto se agregará automáticamente</text>
+  
+  <!-- Upgrade Button -->
+  <rect x="60" y="520" width="140" height="30" fill="#FF9800" rx="8"/>
+  <text x="130" y="540" fill="white" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">Actualizar a PRO para escanear</text>
 </svg>
