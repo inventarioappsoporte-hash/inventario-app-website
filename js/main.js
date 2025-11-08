@@ -369,7 +369,7 @@ function updateTextsToEnglish() {
         'Soporte': 'Support',
         'Tutoriales': 'Tutorials',
         'Legal': 'Legal',
-        'Política de privacidad': 'Privacy policy',
+        'Política de privacidad': 'Privacy Policy',
         'Términos de uso': 'Terms of use',
         'Cookies': 'Cookies',
         'Licencias': 'Licenses',
