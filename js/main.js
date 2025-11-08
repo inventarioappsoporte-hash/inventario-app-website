@@ -278,6 +278,7 @@ function updateTextsToEnglish() {
         'Tus datos siempre protegidos': 'Your data always protected',
         'Guardamos todo con cifrado de nivel bancario y copias automáticas.': 'We store everything with bank-level encryption and automatic backups.',
         'Tu información nunca sale de tus dispositivos sin tu autorización.': 'Your information never leaves your devices without your authorization.',
+        'Guardamos todo con cifrado de nivel bancario y copias automáticas. Tu información nunca sale de tus dispositivos sin tu autorización.': 'We store everything with bank-level encryption and automatic backups. Your information never leaves your devices without your authorization.',
         'Cifrado de extremo a extremo': 'End-to-end encryption',
         'Respaldos automáticos': 'Automatic backups',
         'Almacenamiento local seguro': 'Secure local storage',
@@ -285,6 +286,9 @@ function updateTextsToEnglish() {
         // Testimonials
         'Lo que dicen nuestros usuarios': 'What our users say',
         'Miles de negocios ya confían en Inventario App': 'Thousands of businesses already trust Inventory App',
+        '"Desde que uso Inventario App, mi control de stock es perfecto. Ya no pierdo ventas por falta de productos."': '"Since I use Inventory App, my stock control is perfect. I no longer lose sales due to lack of products."',
+        '"La función offline es increíble. Puedo trabajar en mi almacén sin preocuparme por la conexión a internet."': '"The offline function is incredible. I can work in my warehouse without worrying about internet connection."',
+        '"Los reportes automáticos me ayudan a tomar mejores decisiones. Ahora sé exactamente qué productos vender más."': '"Automatic reports help me make better decisions. Now I know exactly which products to sell more."',
         'Desde que uso Inventario App, mi control de stock es perfecto. Ya no pierdo ventas por falta de productos.': 'Since I use Inventory App, my stock control is perfect. I no longer lose sales due to lack of products.',
         'La función offline es increíble. Puedo trabajar en mi almacén sin preocuparme por la conexión a internet.': 'The offline function is incredible. I can work in my warehouse without worrying about internet connection.',
         'Los reportes automáticos me ayudan a tomar mejores decisiones. Ahora sé exactamente qué productos vender más.': 'Automatic reports help me make better decisions. Now I know exactly which products to sell more.',
@@ -369,6 +373,7 @@ function updateTextsToEnglish() {
         'Términos de uso': 'Terms of use',
         'Cookies': 'Cookies',
         'Licencias': 'Licenses',
+        '© 2025 Inventario App. Todos los derechos reservados.': '© 2025 Inventory App. All rights reserved.',
         'Todos los derechos reservados.': 'All rights reserved.',
         'Hecho con ❤️ para pequeños negocios': 'Made with ❤️ for small businesses'
     };
