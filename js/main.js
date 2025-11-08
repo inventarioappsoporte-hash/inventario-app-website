@@ -241,6 +241,11 @@ function updateTextsToEnglish() {
         'Para Empezar': 'To Start',
         '0 costo': '0 cost',
         
+        // Floating cards
+        'Stock en tiempo real': 'Real-time stock',
+        '100% Seguro': '100% Secure',
+        'Sin Internet': 'No Internet',
+        
         // Features Section
         'Todo lo que necesitas para tu negocio': 'Everything you need for your business',
         'Funcionalidades diseñadas específicamente para pequeños negocios y emprendimientos': 'Features designed specifically for small businesses and entrepreneurs',
