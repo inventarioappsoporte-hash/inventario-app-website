@@ -239,6 +239,7 @@ function updateTextsToEnglish() {
         // Stats
         'Productos Gratis': 'Free Products',
         'Para Empezar': 'To Start',
+        '0 costo': '0 cost',
         
         // Features Section
         'Todo lo que necesitas para tu negocio': 'Everything you need for your business',
