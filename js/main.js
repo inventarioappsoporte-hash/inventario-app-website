@@ -27,12 +27,14 @@ function initNavigation() {
             
             // Cambiar icono del menú
             const icon = navToggle.querySelector('i');
-            if (navMenu.classList.contains('active')) {
-                icon.setAttribute('data-lucide', 'x');
-            } else {
-                icon.setAttribute('data-lucide', 'menu');
+            if (icon) {
+                if (navMenu.classList.contains('active')) {
+                    icon.setAttribute('data-lucide', 'x');
+                } else {
+                    icon.setAttribute('data-lucide', 'menu');
+                }
+                lucide.createIcons();
             }
-            lucide.createIcons();
         });
 
         // Cerrar menú al hacer clic en un enlace
@@ -40,8 +42,10 @@ function initNavigation() {
             link.addEventListener('click', () => {
                 navMenu.classList.remove('active');
                 const icon = navToggle.querySelector('i');
-                icon.setAttribute('data-lucide', 'menu');
-                lucide.createIcons();
+                if (icon) {
+                    icon.setAttribute('data-lucide', 'menu');
+                    lucide.createIcons();
+                }
             });
         });
 
@@ -50,8 +54,10 @@ function initNavigation() {
             if (!navToggle.contains(e.target) && !navMenu.contains(e.target)) {
                 navMenu.classList.remove('active');
                 const icon = navToggle.querySelector('i');
-                icon.setAttribute('data-lucide', 'menu');
-                lucide.createIcons();
+                if (icon) {
+                    icon.setAttribute('data-lucide', 'menu');
+                    lucide.createIcons();
+                }
             }
         });
     }
