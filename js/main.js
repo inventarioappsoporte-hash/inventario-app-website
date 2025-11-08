@@ -229,6 +229,9 @@ function updateTextsToEnglish() {
         'Contacto': 'Contact',
         
         // Hero Section
+        'Controlá tu stock con': 'Control your inventory with',
+        'precisión': 'precision',
+        'y sin complicaciones': 'and without complications',
         'Controlá tu stock con precisión y sin complicaciones': 'Control your inventory with precision and without complications',
         'Inventario App te ayuda a administrar tus productos, ventas y reportes desde tu celular o tablet.': 'Inventory App helps you manage your products, sales and reports from your phone or tablet.',
         'Funciona 100% offline': 'Works 100% offline',
@@ -372,6 +375,24 @@ function updateTextsToEnglish() {
 
     // Traducir textos
     Object.entries(translations).forEach(([spanish, english]) => {
+        // Método 1: Buscar elementos por contenido exacto
+        const elements = document.querySelectorAll('*');
+        elements.forEach(el => {
+            // Solo elementos que no tienen hijos de texto
+            if (el.children.length === 0 && el.textContent.trim() === spanish) {
+                el.textContent = english;
+            }
+            // Para elementos con hijos, buscar nodos de texto
+            else if (el.childNodes.length > 0) {
+                el.childNodes.forEach(node => {
+                    if (node.nodeType === Node.TEXT_NODE && node.textContent.trim() === spanish) {
+                        node.textContent = english;
+                    }
+                });
+            }
+        });
+        
+        // Método 2: TreeWalker para nodos de texto
         const walker = document.createTreeWalker(
             document.body,
             NodeFilter.SHOW_TEXT,
@@ -391,6 +412,15 @@ function updateTextsToEnglish() {
             }
         });
     });
+    
+    // Traducción especial para el título hero con span anidado
+    const heroTitle = document.querySelector('.hero-title');
+    if (heroTitle && heroTitle.innerHTML.includes('Controlá tu stock con')) {
+        heroTitle.innerHTML = heroTitle.innerHTML
+            .replace('Controlá tu stock con', 'Control your inventory with')
+            .replace('precisión', 'precision')
+            .replace('y sin complicaciones', 'and without complications');
+    }
     
     // Traducir atributos específicos
     const placeholders = {
