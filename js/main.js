@@ -166,8 +166,21 @@ function initContactForm() {
             submitBtn.disabled = true;
 
             try {
-                // Simular envío (aquí integrarías con tu backend)
-                await new Promise(resolve => setTimeout(resolve, 2000));
+                // Enviar a Google Apps Script
+                const response = await fetch('https://script.google.com/macros/s/AKfycbyqShLC2nnO5ltS21SBHY6jYV_fYkZEfzDTktQDDDu-XO7iGtOcrsMyRvhEjENM5t6PYg/exec', {
+                    method: 'POST',
+                    mode: 'no-cors',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        name: data.name,
+                        email: data.email,
+                        subject: data.subject,
+                        message: data.message,
+                        timestamp: new Date().toISOString()
+                    })
+                });
 
                 // Mostrar éxito
                 showNotification('¡Mensaje enviado correctamente! Te responderemos pronto.', 'success');
