@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initScrollIndicator();
     initCounters();
     initParallax();
+    initScreenSlider();
     
     console.log('🚀 Inventario App Website cargado correctamente');
 });
@@ -471,6 +472,86 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 });
+
+// Screen Slider para el hero
+function initScreenSlider() {
+    const screenshots = document.querySelectorAll('.app-screenshot');
+    const indicators = document.querySelectorAll('.indicator');
+    
+    if (screenshots.length === 0) return;
+    
+    let currentIndex = 0;
+    const totalScreens = screenshots.length;
+    
+    // Configurar transición automática
+    const autoSlideInterval = 4000; // 4 segundos
+    let slideTimer;
+    
+    function showScreen(index) {
+        // Remover clases activas
+        screenshots.forEach(screen => {
+            screen.classList.remove('active', 'prev');
+        });
+        indicators.forEach(indicator => {
+            indicator.classList.remove('active');
+        });
+        
+        // Agregar clase prev a la pantalla anterior
+        if (currentIndex !== index) {
+            screenshots[currentIndex].classList.add('prev');
+        }
+        
+        // Activar nueva pantalla
+        screenshots[index].classList.add('active');
+        indicators[index].classList.add('active');
+        
+        currentIndex = index;
+    }
+    
+    function nextScreen() {
+        const nextIndex = (currentIndex + 1) % totalScreens;
+        showScreen(nextIndex);
+    }
+    
+    function startAutoSlide() {
+        slideTimer = setInterval(nextScreen, autoSlideInterval);
+    }
+    
+    function stopAutoSlide() {
+        if (slideTimer) {
+            clearInterval(slideTimer);
+        }
+    }
+    
+    // Event listeners para indicadores
+    indicators.forEach((indicator, index) => {
+        indicator.addEventListener('click', () => {
+            stopAutoSlide();
+            showScreen(index);
+            // Reiniciar auto-slide después de interacción
+            setTimeout(startAutoSlide, 2000);
+        });
+    });
+    
+    // Pausar en hover del teléfono
+    const phoneMockup = document.querySelector('.phone-mockup');
+    if (phoneMockup) {
+        phoneMockup.addEventListener('mouseenter', stopAutoSlide);
+        phoneMockup.addEventListener('mouseleave', startAutoSlide);
+    }
+    
+    // Iniciar auto-slide
+    startAutoSlide();
+    
+    // Pausar cuando la pestaña no está visible
+    document.addEventListener('visibilitychange', () => {
+        if (document.hidden) {
+            stopAutoSlide();
+        } else {
+            startAutoSlide();
+        }
+    });
+}
 
 // Animación adicional para slideOutRight
 const style = document.createElement('style');

@@ -89,7 +89,20 @@
                 </div>
                 <div class="hero-image">
                     <div class="phone-mockup">
-                        <img src="assets/app-screenshot.png?v=2" alt="Inventario App Screenshot" class="app-screenshot">
+                        <div class="screen-slider">
+                            <img src="assets/app-screenshot.png?v=2" alt="Lista de Productos" class="app-screenshot active" data-screen="productos">
+                            <img src="assets/screen-dashboard.svg" alt="Dashboard Principal" class="app-screenshot" data-screen="dashboard">
+                            <img src="assets/screen-scanner.svg" alt="Escáner de Códigos" class="app-screenshot" data-screen="scanner">
+                            <img src="assets/screen-reports.svg" alt="Reportes" class="app-screenshot" data-screen="reportes">
+                            <img src="assets/screen-categories.svg" alt="Categorías" class="app-screenshot" data-screen="categorias">
+                        </div>
+                        <div class="screen-indicators">
+                            <div class="indicator active" data-screen="productos"></div>
+                            <div class="indicator" data-screen="dashboard"></div>
+                            <div class="indicator" data-screen="scanner"></div>
+                            <div class="indicator" data-screen="reportes"></div>
+                            <div class="indicator" data-screen="categorias"></div>
+                        </div>
                         <div class="floating-card card-1">
                             <i data-lucide="trending-up"></i>
                             <span>Stock en tiempo real</span>
