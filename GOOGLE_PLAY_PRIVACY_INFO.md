@@ -78,7 +78,7 @@
 
 ### Contacto y Soporte
 - **Email**: infosoporteinventarioapp@gmail.com
-- **Sitio web**: https://inventario-app-web.vercel.app
+- **Sitio web**: https://inventarioappsoporte-hash.github.io/inventario-app-website
 - **Política completa**: Disponible en la app y sitio web
 - **Tiempo de respuesta**: 48-72 horas laborables
 
@@ -102,7 +102,7 @@
 
 💳 **Compras Seguras**: Las compras dentro de la app se procesan de forma segura a través de Google Play Billing.
 
-📋 **Política Completa**: Disponible en https://inventario-app-web.vercel.app/privacy.html
+📋 **Política Completa**: Disponible en https://inventarioappsoporte-hash.github.io/inventario-app-website/privacy.html
 
 ---
 
