@@ -229,6 +229,8 @@ function changeLanguage(lang) {
     if (lang === 'en') {
         // Cambiar textos a inglés
         updateTextsToEnglish();
+        // Cambiar imágenes a inglés
+        updateImagesToEnglish();
     } else {
         // Mantener en español (por defecto)
         updateTextsToSpanish();
@@ -477,6 +479,30 @@ function updateTextsToEnglish() {
 function updateTextsToSpanish() {
     // Recargar la página para restaurar el español original
     location.reload();
+}
+
+// Actualizar imágenes a inglés
+function updateImagesToEnglish() {
+    // Mapeo de imágenes en español a inglés
+    const imageMap = {
+        'assets/app-screenshot.png': 'assets/app-screenshot_en.png',
+        'assets/screen-dashboard.png': 'assets/screen-dashboard_en.png',
+        'assets/screen-scanner.png': 'assets/screen-scanner_en.png',
+        'assets/screen-reports.png': 'assets/screen-reports_en.png',
+        'assets/screen-categories.png': 'assets/screen-categories_en.png',
+        'assets/screenshot1.png': 'assets/screenshot1_en.png'
+    };
+    
+    // Actualizar todas las imágenes que coincidan
+    Object.entries(imageMap).forEach(([spanishSrc, englishSrc]) => {
+        // Buscar imágenes por src
+        const images = document.querySelectorAll(`img[src="${spanishSrc}"], img[src="${spanishSrc}?v=2"]`);
+        images.forEach(img => {
+            // Mantener el parámetro de versión si existe
+            const hasVersion = img.src.includes('?v=');
+            img.src = hasVersion ? `${englishSrc}?v=2` : englishSrc;
+        });
+    });
 }
 
 // Indicador de scroll
