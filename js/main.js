@@ -325,6 +325,8 @@ function updateTextsToEnglish() {
         'Plan Premium': 'Premium Plan',
         'pago único': 'one-time payment',
         'Más Popular': 'Most Popular',
+        '🔥 50% OFF - Oferta por Tiempo Limitado': '🔥 50% OFF - Limited Time Offer',
+        'PAGO ÚNICO - Sin suscripciones': 'ONE-TIME PAYMENT - No subscriptions',
         
         // Features list
         'Hasta 25 productos': 'Up to 25 products',
