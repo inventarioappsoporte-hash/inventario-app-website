@@ -461,6 +461,13 @@ function updateTextsToEnglish() {
         link.href = 'terms-en.html';
     });
     
+    // Actualizar enlace al manual
+    const manualLinks = document.querySelectorAll('a[href="manual.html"]');
+    manualLinks.forEach(link => {
+        link.href = 'manual-en.html';
+        link.textContent = '📘 User Manual';
+    });
+    
     // Traducir atributos específicos
     const placeholders = {
         'Nombre': 'Name',
