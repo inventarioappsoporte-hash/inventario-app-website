@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tutoriales y Guías Rápidas - Inventario App</title>
-    <meta name="description" content="Aprende a usar Inventario App con nuestros tutoriales en video paso a paso. Guías rápidas para productos, movimientos, precios y reportes.">
+    <title>Tutorials and Quick Guides - Inventario App</title>
+    <meta name="description" content="Learn how to use Inventario App with our step-by-step video tutorials. Quick guides for products, movements, prices and reports.">
     <link rel="icon" type="image/png" href="assets/favicon.png">
     
     <!-- CSS -->
@@ -26,15 +26,15 @@
                 <span class="brand-name">Inventario App</span>
             </div>
             <div class="nav-menu" id="navMenu">
-                <a href="index.html" class="nav-link">Inicio</a>
-                <a href="index.html#caracteristicas" class="nav-link">Características</a>
-                <a href="index.html#precios" class="nav-link">Precios</a>
-                <a href="tutoriales.html" class="nav-link active">Tutoriales</a>
-                <a href="manual.html" class="nav-link">Manual</a>
-                <a href="index.html#contacto" class="nav-link">Contacto</a>
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="index.html#caracteristicas" class="nav-link">Features</a>
+                <a href="index.html#precios" class="nav-link">Pricing</a>
+                <a href="tutoriales-en.html" class="nav-link active">Tutorials</a>
+                <a href="manual-en.html" class="nav-link">Manual</a>
+                <a href="index.html#contacto" class="nav-link">Contact</a>
                 <div class="language-selector">
-                    <button class="lang-btn active" data-lang="es">ES</button>
-                    <button class="lang-btn" data-lang="en">EN</button>
+                    <a href="tutoriales.html" class="lang-btn">ES</a>
+                    <a href="tutoriales-en.html" class="lang-btn active">EN</a>
                 </div>
             </div>
             <div class="nav-toggle" id="navToggle">
@@ -46,8 +46,8 @@
     <!-- Hero Section -->
     <section class="tutorials-hero">
         <div class="container">
-            <h1>🎬 Tutoriales y Guías Rápidas</h1>
-            <p>Aprende a usar Inventario App con nuestros videos paso a paso. Desde lo básico hasta funciones avanzadas.</p>
+            <h1>🎬 Tutorials and Quick Guides</h1>
+            <p>Learn how to use Inventario App with our step-by-step videos. From basics to advanced features.</p>
         </div>
     </section>
 
@@ -55,37 +55,37 @@
     <section class="tutorials-filters">
         <div class="container">
             <div class="filter-buttons">
-                <button class="filter-btn active" data-category="Todos">
+                <button class="filter-btn active" data-category="All">
                     <i data-lucide="grid"></i>
-                    Todos
+                    All
                 </button>
-                <button class="filter-btn" data-category="Productos">
+                <button class="filter-btn" data-category="Products">
                     <i data-lucide="package"></i>
-                    Productos
+                    Products
                 </button>
-                <button class="filter-btn" data-category="Movimientos">
+                <button class="filter-btn" data-category="Movements">
                     <i data-lucide="repeat"></i>
-                    Movimientos
+                    Movements
                 </button>
-                <button class="filter-btn" data-category="Categorias">
+                <button class="filter-btn" data-category="Categories">
                     <i data-lucide="folder"></i>
-                    Categorías
+                    Categories
                 </button>
-                <button class="filter-btn" data-category="Precios y Descuentos">
+                <button class="filter-btn" data-category="Prices and Discounts">
                     <i data-lucide="tag"></i>
-                    Precios y Descuentos
+                    Prices & Discounts
                 </button>
-                <button class="filter-btn" data-category="Reportes">
+                <button class="filter-btn" data-category="Reports">
                     <i data-lucide="bar-chart-3"></i>
-                    Reportes
+                    Reports
                 </button>
-                <button class="filter-btn" data-category="Catalogo y Variantes">
+                <button class="filter-btn" data-category="Catalog and Variants">
                     <i data-lucide="book-open"></i>
-                    Catálogo y Variantes
+                    Catalog & Variants
                 </button>
-                <button class="filter-btn" data-category="Seguridad">
+                <button class="filter-btn" data-category="Security">
                     <i data-lucide="shield"></i>
-                    Seguridad y Backup
+                    Security & Backup
                 </button>
             </div>
         </div>
@@ -95,14 +95,14 @@
     <section class="tutorials-section">
         <div class="container">
             <div class="tutorials-grid" id="tutorialsGrid">
-                <!-- Los tutoriales se cargarán dinámicamente aquí -->
+                <!-- Tutorials will be loaded dynamically here -->
             </div>
             
             <!-- Empty State -->
             <div class="empty-state" id="emptyState">
                 <i data-lucide="video-off"></i>
-                <h3>No hay tutoriales en esta categoría</h3>
-                <p>Prueba seleccionando otra categoría o vuelve a "Todos"</p>
+                <h3>No tutorials in this category</h3>
+                <p>Try selecting another category or go back to "All"</p>
             </div>
         </div>
     </section>
@@ -118,11 +118,11 @@
             </div>
             <div class="modal-body">
                 <div class="video-container" id="videoContainer">
-                    <!-- El video se cargará dinámicamente aquí -->
+                    <!-- Video will be loaded dynamically here -->
                 </div>
             </div>
             <div class="modal-footer">
-                <p id="modalDescription">Descripción del tutorial</p>
+                <p id="modalDescription">Tutorial description</p>
             </div>
         </div>
     </div>
@@ -136,7 +136,7 @@
                         <img src="assets/logo.png" alt="Inventario App" class="footer-logo">
                         <span class="brand-name">Inventario App</span>
                     </div>
-                    <p>La solución completa para gestionar tu inventario sin complicaciones. Funciona offline y protege tus datos.</p>
+                    <p>The complete solution to manage your inventory without complications. Works offline and protects your data.</p>
                     <div class="social-links">
                         <a href="https://www.instagram.com/inventarioapp?igsh=MXNwYWd1dWI0Z2NkbA==" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
                             <i data-lucide="instagram"></i>
@@ -145,45 +145,45 @@
                 </div>
                 
                 <div class="footer-section">
-                    <h4>Producto</h4>
+                    <h4>Product</h4>
                     <ul>
-                        <li><a href="index.html#caracteristicas">Características</a></li>
-                        <li><a href="index.html#precios">Precios</a></li>
-                        <li><a href="#">Descargar</a></li>
-                        <li><a href="#">Actualizaciones</a></li>
+                        <li><a href="index.html#caracteristicas">Features</a></li>
+                        <li><a href="index.html#precios">Pricing</a></li>
+                        <li><a href="#">Download</a></li>
+                        <li><a href="#">Updates</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-section">
-                    <h4>Soporte</h4>
+                    <h4>Support</h4>
                     <ul>
                         <li><a href="index.html#faq">FAQ</a></li>
-                        <li><a href="index.html#contacto">Contacto</a></li>
-                        <li><a href="manual.html">📘 Manual de Usuario</a></li>
-                        <li><a href="tutoriales.html">🎬 Tutoriales</a></li>
+                        <li><a href="index.html#contacto">Contact</a></li>
+                        <li><a href="manual-en.html">📘 User Manual</a></li>
+                        <li><a href="tutoriales-en.html">🎬 Tutorials</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-section">
                     <h4>Legal</h4>
                     <ul>
-                        <li><a href="privacy.html">Política de privacidad</a></li>
-                        <li><a href="terms.html">Términos de uso</a></li>
+                        <li><a href="privacy-en.html">Privacy Policy</a></li>
+                        <li><a href="terms-en.html">Terms of Service</a></li>
                     </ul>
                 </div>
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2025 Inventario App. Todos los derechos reservados.</p>
-                <p>Hecho con ❤️ para pequeños negocios</p>
+                <p>&copy; 2025 Inventario App. All rights reserved.</p>
+                <p>Made with ❤️ for small businesses</p>
             </div>
         </div>
     </footer>
 
     <!-- Scripts -->
-    <script src="js/tutoriales.js"></script>
+    <script src="js/tutoriales-en.js"></script>
     <script>
-        // Inicializar iconos de Lucide
+        // Initialize Lucide icons
         lucide.createIcons();
     </script>
 </body>

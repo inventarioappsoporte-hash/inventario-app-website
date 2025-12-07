@@ -468,6 +468,13 @@ function updateTextsToEnglish() {
         link.textContent = '📘 User Manual';
     });
     
+    // Actualizar enlace a tutoriales
+    const tutorialesLinks = document.querySelectorAll('a[href="tutoriales.html"]');
+    tutorialesLinks.forEach(link => {
+        link.href = 'tutoriales-en.html';
+        link.textContent = '🎬 Tutorials';
+    });
+    
     // Traducir atributos específicos
     const placeholders = {
         'Nombre': 'Name',
