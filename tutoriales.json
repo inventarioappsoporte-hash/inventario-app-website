@@ -22,7 +22,7 @@
     "titulo": "Configurar alertas de stock bajo",
     "descripcion": "Recibe notificaciones cuando tus productos estén por agotarse",
     "categoria": "Productos",
-    "duracion": "3:15",
+    "duracion": "0:28",
     "miniatura": "assets/tutorial-alertas.jpg",
     "video": "https://www.youtube.com/embed/n06Sq3-OzTc?si=lrBYEo27gc9ruv_f"
   },
