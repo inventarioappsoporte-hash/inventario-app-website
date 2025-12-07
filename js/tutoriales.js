@@ -75,7 +75,6 @@ function renderTutorials(tutorials) {
     grid.innerHTML = tutorials.map((tutorial, index) => `
         <div class="tutorial-card" onclick="openModal(${tutorial.id})" style="animation-delay: ${index * 0.1}s">
             <div class="tutorial-thumbnail">
-                <img src="${tutorial.miniatura}" alt="${tutorial.titulo}" onerror="this.src='assets/placeholder-screenshot.png'">
                 <div class="play-icon">
                     <i data-lucide="play"></i>
                 </div>

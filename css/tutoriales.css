@@ -100,6 +100,26 @@
     height: 200px;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tutorial-thumbnail::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        linear-gradient(45deg, rgba(255,255,255,0.1) 25%, transparent 25%),
+        linear-gradient(-45deg, rgba(255,255,255,0.1) 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, rgba(255,255,255,0.1) 75%),
+        linear-gradient(-45deg, transparent 75%, rgba(255,255,255,0.1) 75%);
+    background-size: 20px 20px;
+    background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+    opacity: 0.3;
 }
 
 .tutorial-thumbnail img {
@@ -107,6 +127,9 @@
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .tutorial-card:hover .tutorial-thumbnail img {
