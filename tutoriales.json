@@ -4,7 +4,7 @@
     "titulo": "Cómo crear tu primer producto",
     "descripcion": "Aprende a agregar productos a tu inventario paso a paso",
     "categoria": "Productos",
-    "duracion": "3:45",
+    "duracion": "00:42",
     "miniatura": "assets/tutorial-producto.jpg",
     "video": "https://www.youtube.com/embed/videoseries?si=q08xIQGP-DRT8GNg&list=PLL7QF7Ye6dZ0iwBbWE7xMW5-au7whmnzM"
   },
@@ -24,7 +24,7 @@
     "categoria": "Productos",
     "duracion": "3:15",
     "miniatura": "assets/tutorial-alertas.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "video": "https://www.youtube.com/embed/n06Sq3-OzTc?si=lrBYEo27gc9ruv_f"
   },
   {
     "id": 4,
