@@ -169,10 +169,14 @@ function openModal(tutorialId) {
     modalDescription.textContent = tutorial.descripcion;
     
     // Insertar video
+    const videoUrl = tutorial.video.includes('?') 
+        ? `${tutorial.video}&autoplay=1` 
+        : `${tutorial.video}?autoplay=1`;
+    
     videoContainer.innerHTML = `
         <iframe 
-            src="${tutorial.video}?autoplay=1" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            src="${videoUrl}" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
             allowfullscreen>
         </iframe>
     `;
