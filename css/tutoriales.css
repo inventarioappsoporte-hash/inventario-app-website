@@ -375,11 +375,17 @@
 
     .filter-buttons {
         gap: 8px;
+        padding: 0 10px;
     }
 
     .filter-btn {
-        padding: 10px 18px;
-        font-size: 0.85rem;
+        padding: 8px 14px;
+        font-size: 0.8rem;
+        white-space: nowrap;
+    }
+
+    .filter-btn i {
+        display: none;
     }
 
     .tutorials-grid {
@@ -394,6 +400,13 @@
 
     .modal-header h2 {
         font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .filter-btn {
+        padding: 6px 10px;
+        font-size: 0.75rem;
     }
 }
 

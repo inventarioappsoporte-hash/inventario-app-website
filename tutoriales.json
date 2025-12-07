@@ -19,69 +19,6 @@
   },
   {
     "id": 3,
-    "titulo": "Registrar entrada de stock",
-    "descripcion": "Cómo registrar mercadería que llega a tu negocio",
-    "categoria": "Movimientos",
-    "duracion": "4:15",
-    "miniatura": "assets/tutorial-entrada.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
-  },
-  {
-    "id": 4,
-    "titulo": "Registrar salida de stock",
-    "descripcion": "Aprende a registrar ventas y salidas de inventario",
-    "categoria": "Movimientos",
-    "duracion": "3:50",
-    "miniatura": "assets/tutorial-salida.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
-  },
-  {
-    "id": 5,
-    "titulo": "Configurar precios y márgenes",
-    "descripcion": "Establece precios de compra y venta correctamente",
-    "categoria": "Precios",
-    "duracion": "5:20",
-    "miniatura": "assets/tutorial-precios.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
-  },
-  {
-    "id": 6,
-    "titulo": "Calcular margen de ganancia",
-    "descripcion": "Entiende cómo calcular tus ganancias por producto",
-    "categoria": "Precios",
-    "duracion": "4:00",
-    "miniatura": "assets/tutorial-margen.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
-  },
-  {
-    "id": 7,
-    "titulo": "Generar reportes de ventas",
-    "descripcion": "Crea reportes detallados de tus ventas",
-    "categoria": "Reportes",
-    "duracion": "6:10",
-    "miniatura": "assets/tutorial-reportes.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
-  },
-  {
-    "id": 8,
-    "titulo": "Exportar datos a Excel",
-    "descripcion": "Exporta tu inventario y reportes a formato CSV/Excel",
-    "categoria": "Reportes",
-    "duracion": "3:30",
-    "miniatura": "assets/tutorial-export.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
-  },
-  {
-    "id": 9,
-    "titulo": "Crear categorías de productos",
-    "descripcion": "Organiza tu inventario con categorías personalizadas",
-    "categoria": "Productos",
-    "duracion": "2:45",
-    "miniatura": "assets/tutorial-categorias.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
-  },
-  {
-    "id": 10,
     "titulo": "Configurar alertas de stock bajo",
     "descripcion": "Recibe notificaciones cuando tus productos estén por agotarse",
     "categoria": "Productos",
@@ -90,7 +27,115 @@
     "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
   },
   {
+    "id": 4,
+    "titulo": "Editar y actualizar productos",
+    "descripcion": "Modifica información de productos existentes",
+    "categoria": "Productos",
+    "duracion": "2:50",
+    "miniatura": "assets/tutorial-editar.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": 5,
+    "titulo": "Registrar entrada de stock",
+    "descripcion": "Cómo registrar mercadería que llega a tu negocio",
+    "categoria": "Movimientos",
+    "duracion": "4:15",
+    "miniatura": "assets/tutorial-entrada.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": 6,
+    "titulo": "Registrar salida de stock",
+    "descripcion": "Aprende a registrar ventas y salidas de inventario",
+    "categoria": "Movimientos",
+    "duracion": "3:50",
+    "miniatura": "assets/tutorial-salida.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": 7,
+    "titulo": "Historial de movimientos",
+    "descripcion": "Consulta el historial completo de entradas y salidas",
+    "categoria": "Movimientos",
+    "duracion": "4:30",
+    "miniatura": "assets/tutorial-historial.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": 8,
+    "titulo": "Crear categorías de productos",
+    "descripcion": "Organiza tu inventario con categorías personalizadas",
+    "categoria": "Categorias",
+    "duracion": "2:45",
+    "miniatura": "assets/tutorial-categorias.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": 9,
+    "titulo": "Gestionar y editar categorías",
+    "descripcion": "Aprende a modificar y eliminar categorías existentes",
+    "categoria": "Categorias",
+    "duracion": "3:20",
+    "miniatura": "assets/tutorial-gestionar-cat.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": 10,
+    "titulo": "Asignar productos a categorías",
+    "descripcion": "Organiza tus productos en las categorías correctas",
+    "categoria": "Categorias",
+    "duracion": "2:55",
+    "miniatura": "assets/tutorial-asignar-cat.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
     "id": 11,
+    "titulo": "Configurar precios y márgenes",
+    "descripcion": "Establece precios de compra y venta correctamente",
+    "categoria": "Precios y Descuentos",
+    "duracion": "5:20",
+    "miniatura": "assets/tutorial-precios.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": 12,
+    "titulo": "Calcular margen de ganancia",
+    "descripcion": "Entiende cómo calcular tus ganancias por producto",
+    "categoria": "Precios y Descuentos",
+    "duracion": "4:00",
+    "miniatura": "assets/tutorial-margen.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": 13,
+    "titulo": "Aplicar descuentos a productos",
+    "descripcion": "Crea promociones y descuentos especiales",
+    "categoria": "Precios y Descuentos",
+    "duracion": "3:40",
+    "miniatura": "assets/tutorial-descuentos.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": 14,
+    "titulo": "Generar reportes de ventas",
+    "descripcion": "Crea reportes detallados de tus ventas",
+    "categoria": "Reportes",
+    "duracion": "6:10",
+    "miniatura": "assets/tutorial-reportes.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": 15,
+    "titulo": "Exportar datos a Excel",
+    "descripcion": "Exporta tu inventario y reportes a formato CSV/Excel",
+    "categoria": "Reportes",
+    "duracion": "3:30",
+    "miniatura": "assets/tutorial-export.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": 16,
     "titulo": "Análisis de productos más vendidos",
     "descripcion": "Identifica qué productos generan más ingresos",
     "categoria": "Reportes",
@@ -99,12 +144,111 @@
     "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
   },
   {
-    "id": 12,
-    "titulo": "Historial de movimientos",
-    "descripcion": "Consulta el historial completo de entradas y salidas",
-    "categoria": "Movimientos",
-    "duracion": "4:30",
-    "miniatura": "assets/tutorial-historial.jpg",
+    "id": 17,
+    "titulo": "Reportes de inventario valorizado",
+    "descripcion": "Conoce el valor total de tu stock",
+    "categoria": "Reportes",
+    "duracion": "4:25",
+    "miniatura": "assets/tutorial-valorizado.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": 18,
+    "titulo": "Crear catálogos PDF",
+    "descripcion": "Genera catálogos profesionales de tus productos",
+    "categoria": "Catalogo y Variantes",
+    "duracion": "5:45",
+    "miniatura": "assets/tutorial-catalogo.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": 19,
+    "titulo": "Gestionar variantes de productos",
+    "descripcion": "Maneja tallas, colores y modelos de un mismo producto",
+    "categoria": "Catalogo y Variantes",
+    "duracion": "6:20",
+    "miniatura": "assets/tutorial-variantes.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": 20,
+    "titulo": "Compartir catálogos con clientes",
+    "descripcion": "Envía tus catálogos por WhatsApp o email",
+    "categoria": "Catalogo y Variantes",
+    "duracion": "3:35",
+    "miniatura": "assets/tutorial-compartir.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": 21,
+    "titulo": "Configurar PIN de seguridad",
+    "descripcion": "Protege tu app con PIN y huella dactilar",
+    "categoria": "Seguridad",
+    "duracion": "2:40",
+    "miniatura": "assets/tutorial-pin.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": 22,
+    "titulo": "Crear respaldo de datos",
+    "descripcion": "Guarda una copia de seguridad de tu inventario",
+    "categoria": "Seguridad",
+    "duracion": "4:15",
+    "miniatura": "assets/tutorial-backup.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": 23,
+    "titulo": "Restaurar datos desde backup",
+    "descripcion": "Recupera tu información desde un respaldo",
+    "categoria": "Seguridad",
+    "duracion": "3:50",
+    "miniatura": "assets/tutorial-restore.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": 24,
+    "titulo": "Sincronizar con Google Drive",
+    "descripcion": "Configura respaldos automáticos en la nube",
+    "categoria": "Seguridad",
+    "duracion": "5:10",
+    "miniatura": "assets/tutorial-drive.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": 25,
+    "titulo": "Cambiar idioma de la app",
+    "descripcion": "Configura la app en español o inglés",
+    "categoria": "Configuracion",
+    "duracion": "1:50",
+    "miniatura": "assets/tutorial-idioma.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": 26,
+    "titulo": "Configurar moneda local",
+    "descripcion": "Establece la moneda de tu país",
+    "categoria": "Configuracion",
+    "duracion": "2:10",
+    "miniatura": "assets/tutorial-moneda.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": 27,
+    "titulo": "Activar modo oscuro",
+    "descripcion": "Cambia entre tema claro y oscuro",
+    "categoria": "Configuracion",
+    "duracion": "1:30",
+    "miniatura": "assets/tutorial-dark.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": 28,
+    "titulo": "Personalizar configuración general",
+    "descripcion": "Ajusta la app según tus preferencias",
+    "categoria": "Configuracion",
+    "duracion": "4:05",
+    "miniatura": "assets/tutorial-config.jpg",
     "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
   }
 ]
