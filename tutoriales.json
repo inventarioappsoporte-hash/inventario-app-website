@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "titulo": "Cómo crear tu primer producto",
+    "descripcion": "Aprende a agregar productos a tu inventario paso a paso",
+    "categoria": "Productos",
+    "duracion": "3:45",
+    "miniatura": "assets/tutorial-producto.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": 2,
+    "titulo": "Escanear códigos de barras",
+    "descripcion": "Usa el escáner para agregar productos rápidamente",
+    "categoria": "Productos",
+    "duracion": "2:30",
+    "miniatura": "assets/tutorial-scanner.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": 3,
+    "titulo": "Registrar entrada de stock",
+    "descripcion": "Cómo registrar mercadería que llega a tu negocio",
+    "categoria": "Movimientos",
+    "duracion": "4:15",
+    "miniatura": "assets/tutorial-entrada.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": 4,
+    "titulo": "Registrar salida de stock",
+    "descripcion": "Aprende a registrar ventas y salidas de inventario",
+    "categoria": "Movimientos",
+    "duracion": "3:50",
+    "miniatura": "assets/tutorial-salida.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": 5,
+    "titulo": "Configurar precios y márgenes",
+    "descripcion": "Establece precios de compra y venta correctamente",
+    "categoria": "Precios",
+    "duracion": "5:20",
+    "miniatura": "assets/tutorial-precios.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": 6,
+    "titulo": "Calcular margen de ganancia",
+    "descripcion": "Entiende cómo calcular tus ganancias por producto",
+    "categoria": "Precios",
+    "duracion": "4:00",
+    "miniatura": "assets/tutorial-margen.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": 7,
+    "titulo": "Generar reportes de ventas",
+    "descripcion": "Crea reportes detallados de tus ventas",
+    "categoria": "Reportes",
+    "duracion": "6:10",
+    "miniatura": "assets/tutorial-reportes.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": 8,
+    "titulo": "Exportar datos a Excel",
+    "descripcion": "Exporta tu inventario y reportes a formato CSV/Excel",
+    "categoria": "Reportes",
+    "duracion": "3:30",
+    "miniatura": "assets/tutorial-export.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": 9,
+    "titulo": "Crear categorías de productos",
+    "descripcion": "Organiza tu inventario con categorías personalizadas",
+    "categoria": "Productos",
+    "duracion": "2:45",
+    "miniatura": "assets/tutorial-categorias.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": 10,
+    "titulo": "Configurar alertas de stock bajo",
+    "descripcion": "Recibe notificaciones cuando tus productos estén por agotarse",
+    "categoria": "Productos",
+    "duracion": "3:15",
+    "miniatura": "assets/tutorial-alertas.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": 11,
+    "titulo": "Análisis de productos más vendidos",
+    "descripcion": "Identifica qué productos generan más ingresos",
+    "categoria": "Reportes",
+    "duracion": "5:00",
+    "miniatura": "assets/tutorial-analisis.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": 12,
+    "titulo": "Historial de movimientos",
+    "descripcion": "Consulta el historial completo de entradas y salidas",
+    "categoria": "Movimientos",
+    "duracion": "4:30",
+    "miniatura": "assets/tutorial-historial.jpg",
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  }
+]

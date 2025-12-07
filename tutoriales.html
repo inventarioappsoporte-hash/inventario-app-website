@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutoriales y Guías Rápidas - Inventario App</title>
+    <meta name="description" content="Aprende a usar Inventario App con nuestros tutoriales en video paso a paso. Guías rápidas para productos, movimientos, precios y reportes.">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/tutoriales.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="assets/logo.png" alt="Inventario App" class="logo">
+                <span class="brand-name">Inventario App</span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Inicio</a>
+                <a href="index.html#caracteristicas" class="nav-link">Características</a>
+                <a href="index.html#precios" class="nav-link">Precios</a>
+                <a href="tutoriales.html" class="nav-link active">Tutoriales</a>
+                <a href="manual.html" class="nav-link">Manual</a>
+                <a href="index.html#contacto" class="nav-link">Contacto</a>
+                <div class="language-selector">
+                    <button class="lang-btn active" data-lang="es">ES</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <i data-lucide="menu"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="tutorials-hero">
+        <div class="container">
+            <h1>🎬 Tutoriales y Guías Rápidas</h1>
+            <p>Aprende a usar Inventario App con nuestros videos paso a paso. Desde lo básico hasta funciones avanzadas.</p>
+        </div>
+    </section>
+
+    <!-- Filters Section -->
+    <section class="tutorials-filters">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-category="Todos">
+                    <i data-lucide="grid"></i>
+                    Todos
+                </button>
+                <button class="filter-btn" data-category="Productos">
+                    <i data-lucide="package"></i>
+                    Productos
+                </button>
+                <button class="filter-btn" data-category="Movimientos">
+                    <i data-lucide="repeat"></i>
+                    Movimientos
+                </button>
+                <button class="filter-btn" data-category="Precios">
+                    <i data-lucide="dollar-sign"></i>
+                    Precios
+                </button>
+                <button class="filter-btn" data-category="Reportes">
+                    <i data-lucide="bar-chart-3"></i>
+                    Reportes
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tutorials Grid -->
+    <section class="tutorials-section">
+        <div class="container">
+            <div class="tutorials-grid" id="tutorialsGrid">
+                <!-- Los tutoriales se cargarán dinámicamente aquí -->
+            </div>
+            
+            <!-- Empty State -->
+            <div class="empty-state" id="emptyState">
+                <i data-lucide="video-off"></i>
+                <h3>No hay tutoriales en esta categoría</h3>
+                <p>Prueba seleccionando otra categoría o vuelve a "Todos"</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Modal -->
+    <div class="modal" id="videoModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Tutorial</h2>
+                <button class="modal-close" id="closeModal">
+                    <i data-lucide="x"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="video-container" id="videoContainer">
+                    <!-- El video se cargará dinámicamente aquí -->
+                </div>
+            </div>
+            <div class="modal-footer">
+                <p id="modalDescription">Descripción del tutorial</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <img src="assets/logo.png" alt="Inventario App" class="footer-logo">
+                        <span class="brand-name">Inventario App</span>
+                    </div>
+                    <p>La solución completa para gestionar tu inventario sin complicaciones. Funciona offline y protege tus datos.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/inventarioapp?igsh=MXNwYWd1dWI0Z2NkbA==" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                            <i data-lucide="instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Producto</h4>
+                    <ul>
+                        <li><a href="index.html#caracteristicas">Características</a></li>
+                        <li><a href="index.html#precios">Precios</a></li>
+                        <li><a href="#">Descargar</a></li>
+                        <li><a href="#">Actualizaciones</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Soporte</h4>
+                    <ul>
+                        <li><a href="index.html#faq">FAQ</a></li>
+                        <li><a href="index.html#contacto">Contacto</a></li>
+                        <li><a href="manual.html">📘 Manual de Usuario</a></li>
+                        <li><a href="tutoriales.html">🎬 Tutoriales</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy.html">Política de privacidad</a></li>
+                        <li><a href="terms.html">Términos de uso</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Inventario App. Todos los derechos reservados.</p>
+                <p>Hecho con ❤️ para pequeños negocios</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/tutoriales.js"></script>
+    <script>
+        // Inicializar iconos de Lucide
+        lucide.createIcons();
+    </script>
+</body>
+</html>
