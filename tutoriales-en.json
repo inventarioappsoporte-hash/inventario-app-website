@@ -24,7 +24,7 @@
     "titulo": "Set up low stock alerts",
     "descripcion": "Receive notifications when your products are running low",
     "categoria": "Products",
-    "duracion": "3:15",
+    "duracion": "00:26",
     "miniatura": "assets/tutorial-alertas.jpg",
     "video": "https://www.youtube.com/embed/YwVFVAJ1cIU?si=hO8tvT5Idt5HWMGV",
     "activo": true
@@ -74,9 +74,9 @@
     "titulo": "Create product categories",
     "descripcion": "Organize your inventory with custom categories",
     "categoria": "Categories",
-    "duracion": "2:45",
+    "duracion": "00:33",
     "miniatura": "assets/tutorial-categorias.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "video": "https://www.youtube.com/embed/enRy9C6Nse4?si=fpUSzJqQZX8Q0_F0",
     "activo": true
   },
   {
