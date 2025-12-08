@@ -4,7 +4,7 @@
     "titulo": "Cómo crear tu primer producto",
     "descripcion": "Aprende a agregar productos a tu inventario paso a paso",
     "categoria": "Productos",
-    "duracion": "00:42",
+    "duracion": "00:43",
     "miniatura": "assets/tutorial-producto.jpg",
     "video": "https://www.youtube.com/embed/UilsUdZH8qU?si=DXsueXPXDDQywoDr"
   },
@@ -22,7 +22,7 @@
     "titulo": "Configurar alertas de stock bajo",
     "descripcion": "Recibe notificaciones cuando tus productos estén por agotarse",
     "categoria": "Productos",
-    "duracion": "0:28",
+    "duracion": "00:29",
     "miniatura": "assets/tutorial-alertas.jpg",
     "video": "https://www.youtube.com/embed/n06Sq3-OzTc?si=nMqNqM2-ya8kgzab"
   },
@@ -31,7 +31,7 @@
     "titulo": "Editar y actualizar productos",
     "descripcion": "Modifica información de productos existentes",
     "categoria": "Productos",
-    "duracion": "2:50",
+    "duracion": "00:56",
     "miniatura": "assets/tutorial-editar.jpg",
     "video": "https://www.youtube.com/embed/GTv2V0HrU9A?si=7Cw0YSEscKZMtWQl"
   },
@@ -67,7 +67,7 @@
     "titulo": "Crear categorías de productos",
     "descripcion": "Organiza tu inventario con categorías personalizadas",
     "categoria": "Categorias",
-    "duracion": "2:45",
+    "duracion": "00:43",
     "miniatura": "assets/tutorial-categorias.jpg",
     "video": "https://www.youtube.com/embed/CSM71lJH22E?si=BUOmGPQCq5T2Jb-a"
   },
@@ -76,7 +76,7 @@
     "titulo": "Gestionar y editar categorías",
     "descripcion": "Aprende a modificar y eliminar categorías existentes",
     "categoria": "Categorias",
-    "duracion": "3:20",
+    "duracion": "00:31",
     "miniatura": "assets/tutorial-gestionar-cat.jpg",
     "video": "https://www.youtube.com/embed/6KGrbVfUYCw?si=FF8Yem9FePXOMMZ0"
   },
@@ -85,7 +85,7 @@
     "titulo": "Asignar productos a categorías",
     "descripcion": "Organiza tus productos en las categorías correctas",
     "categoria": "Categorias",
-    "duracion": "2:55",
+    "duracion": "00:25",
     "miniatura": "assets/tutorial-asignar-cat.jpg",
     "video": "https://www.youtube.com/embed/F39D7Bb-Kfs?si=DRzNfAXSflX1tYQD"
   },
