@@ -6,7 +6,8 @@
     "categoria": "Productos",
     "duracion": "00:43",
     "miniatura": "assets/tutorial-producto.jpg",
-    "video": "https://www.youtube.com/embed/UilsUdZH8qU?si=DXsueXPXDDQywoDr"
+    "video": "https://www.youtube.com/embed/UilsUdZH8qU?si=DXsueXPXDDQywoDr",
+    "activo": true
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "categoria": "Productos",
     "duracion": "2:30",
     "miniatura": "assets/tutorial-scanner.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "activo": false
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
     "categoria": "Productos",
     "duracion": "00:29",
     "miniatura": "assets/tutorial-alertas.jpg",
-    "video": "https://www.youtube.com/embed/n06Sq3-OzTc?si=nMqNqM2-ya8kgzab"
+    "video": "https://www.youtube.com/embed/n06Sq3-OzTc?si=nMqNqM2-ya8kgzab",
+    "activo": true
   },
   {
     "id": 4,
@@ -33,7 +36,8 @@
     "categoria": "Productos",
     "duracion": "00:56",
     "miniatura": "assets/tutorial-editar.jpg",
-    "video": "https://www.youtube.com/embed/GTv2V0HrU9A?si=7Cw0YSEscKZMtWQl"
+    "video": "https://www.youtube.com/embed/GTv2V0HrU9A?si=7Cw0YSEscKZMtWQl",
+    "activo": true
   },
   {
     "id": 5,
@@ -42,7 +46,8 @@
     "categoria": "Movimientos",
     "duracion": "4:15",
     "miniatura": "assets/tutorial-entrada.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "activo": false
   },
   {
     "id": 6,
@@ -51,7 +56,8 @@
     "categoria": "Movimientos",
     "duracion": "3:50",
     "miniatura": "assets/tutorial-salida.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "activo": false
   },
   {
     "id": 7,
@@ -60,7 +66,8 @@
     "categoria": "Movimientos",
     "duracion": "4:30",
     "miniatura": "assets/tutorial-historial.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "activo": false
   },
   {
     "id": 8,
@@ -69,7 +76,8 @@
     "categoria": "Categorias",
     "duracion": "00:43",
     "miniatura": "assets/tutorial-categorias.jpg",
-    "video": "https://www.youtube.com/embed/CSM71lJH22E?si=BUOmGPQCq5T2Jb-a"
+    "video": "https://www.youtube.com/embed/CSM71lJH22E?si=BUOmGPQCq5T2Jb-a",
+    "activo": true
   },
   {
     "id": 9,
@@ -78,7 +86,8 @@
     "categoria": "Categorias",
     "duracion": "00:31",
     "miniatura": "assets/tutorial-gestionar-cat.jpg",
-    "video": "https://www.youtube.com/embed/6KGrbVfUYCw?si=FF8Yem9FePXOMMZ0"
+    "video": "https://www.youtube.com/embed/6KGrbVfUYCw?si=FF8Yem9FePXOMMZ0",
+    "activo": true
   },
   {
     "id": 10,
@@ -87,7 +96,8 @@
     "categoria": "Categorias",
     "duracion": "00:25",
     "miniatura": "assets/tutorial-asignar-cat.jpg",
-    "video": "https://www.youtube.com/embed/F39D7Bb-Kfs?si=DRzNfAXSflX1tYQD"
+    "video": "https://www.youtube.com/embed/F39D7Bb-Kfs?si=DRzNfAXSflX1tYQD",
+    "activo": true
   },
   {
     "id": 11,
@@ -96,7 +106,8 @@
     "categoria": "Precios y Descuentos",
     "duracion": "5:20",
     "miniatura": "assets/tutorial-precios.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "activo": false
   },
   {
     "id": 12,
@@ -105,7 +116,8 @@
     "categoria": "Precios y Descuentos",
     "duracion": "4:00",
     "miniatura": "assets/tutorial-margen.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "activo": false
   },
   {
     "id": 13,
@@ -114,7 +126,8 @@
     "categoria": "Precios y Descuentos",
     "duracion": "3:40",
     "miniatura": "assets/tutorial-descuentos.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "activo": false
   },
   {
     "id": 14,
@@ -123,7 +136,8 @@
     "categoria": "Reportes",
     "duracion": "6:10",
     "miniatura": "assets/tutorial-reportes.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "activo": false
   },
   {
     "id": 15,
@@ -132,7 +146,8 @@
     "categoria": "Reportes",
     "duracion": "3:30",
     "miniatura": "assets/tutorial-export.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "activo": false
   },
   {
     "id": 16,
@@ -141,7 +156,8 @@
     "categoria": "Reportes",
     "duracion": "5:00",
     "miniatura": "assets/tutorial-analisis.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "activo": false
   },
   {
     "id": 17,
@@ -150,7 +166,8 @@
     "categoria": "Reportes",
     "duracion": "4:25",
     "miniatura": "assets/tutorial-valorizado.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "activo": false
   },
   {
     "id": 18,
@@ -159,7 +176,8 @@
     "categoria": "Catalogo y Variantes",
     "duracion": "5:45",
     "miniatura": "assets/tutorial-catalogo.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "activo": false
   },
   {
     "id": 19,
@@ -168,7 +186,8 @@
     "categoria": "Catalogo y Variantes",
     "duracion": "6:20",
     "miniatura": "assets/tutorial-variantes.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "activo": false
   },
   {
     "id": 20,
@@ -177,7 +196,8 @@
     "categoria": "Catalogo y Variantes",
     "duracion": "3:35",
     "miniatura": "assets/tutorial-compartir.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "activo": false
   },
   {
     "id": 21,
@@ -186,7 +206,8 @@
     "categoria": "Seguridad",
     "duracion": "2:40",
     "miniatura": "assets/tutorial-pin.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "activo": false
   },
   {
     "id": 22,
@@ -195,7 +216,8 @@
     "categoria": "Seguridad",
     "duracion": "4:15",
     "miniatura": "assets/tutorial-backup.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "activo": false
   },
   {
     "id": 23,
@@ -204,7 +226,8 @@
     "categoria": "Seguridad",
     "duracion": "3:50",
     "miniatura": "assets/tutorial-restore.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "activo": false
   },
   {
     "id": 24,
@@ -213,6 +236,7 @@
     "categoria": "Seguridad",
     "duracion": "5:10",
     "miniatura": "assets/tutorial-drive.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "activo": false
   }
 ]

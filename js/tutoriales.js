@@ -16,7 +16,9 @@ async function initTutorials() {
     try {
         showLoading();
         const response = await fetch('tutoriales.json');
-        tutorialesData = await response.json();
+        const allTutorials = await response.json();
+        // Filtrar solo tutoriales activos
+        tutorialesData = allTutorials.filter(t => t.activo === true);
         hideLoading();
         renderTutorials(tutorialesData);
         initFilters();
