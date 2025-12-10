@@ -34,9 +34,9 @@
     "titulo": "Edit and update products",
     "descripcion": "Modify information of existing products",
     "categoria": "Products",
-    "duracion": "2:50",
+    "duracion": "00:46",
     "miniatura": "assets/tutorial-editar.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "video": "https://www.youtube.com/embed/3Ex8sEfpejg?si=RegxBxBuTmciyUbV",
     "activo": true
   },
   {
@@ -84,9 +84,9 @@
     "titulo": "Manage and edit categories",
     "descripcion": "Learn to modify and delete existing categories",
     "categoria": "Categories",
-    "duracion": "3:20",
+    "duracion": "00:26",
     "miniatura": "assets/tutorial-gestionar-cat.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "video": "https://www.youtube.com/embed/BcZ2uUdWQy8?si=COusNpkN6vVG0Z6-",
     "activo": true
   },
   {
@@ -94,9 +94,9 @@
     "titulo": "Assign products to categories",
     "descripcion": "Organize your products in the right categories",
     "categoria": "Categories",
-    "duracion": "2:55",
+    "duracion": "00:25",
     "miniatura": "assets/tutorial-asignar-cat.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "video": "https://www.youtube.com/embed/Qy2-7Ra7yWA?si=gx5vp6Iq_VKc425Y",
     "activo": true
   },
   {
