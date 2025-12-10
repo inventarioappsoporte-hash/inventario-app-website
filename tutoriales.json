@@ -44,10 +44,10 @@
     "titulo": "Registrar entrada de stock",
     "descripcion": "Cómo registrar mercadería que llega a tu negocio",
     "categoria": "Movimientos",
-    "duracion": "4:15",
+    "duracion": "1:30",
     "miniatura": "assets/tutorial-entrada.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    "activo": false
+    "video": "https://www.youtube.com/embed/SESGOq1R8FU?si=X5AnWPg5xbFZ0BPZ",
+    "activo": true
   },
   {
     "id": 6,

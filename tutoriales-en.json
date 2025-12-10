@@ -44,10 +44,10 @@
     "titulo": "Register stock entry",
     "descripcion": "How to register merchandise arriving at your business",
     "categoria": "Movements",
-    "duracion": "4:15",
+    "duracion": "1:04",
     "miniatura": "assets/tutorial-entrada.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    "activo": false
+    "video": "https://www.youtube.com/embed/eYMgyxPbsxs?si=3OC8c2b49di7w1sQ",
+    "activo": true
   },
   {
     "id": 6,
