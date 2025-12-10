@@ -54,10 +54,10 @@
     "titulo": "Register stock exit",
     "descripcion": "Learn to register sales and inventory exits",
     "categoria": "Movements",
-    "duracion": "3:50",
+    "duracion": "1:01",
     "miniatura": "assets/tutorial-salida.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    "activo": false
+    "video": "https://www.youtube.com/embed/zidVMaRjbvc?si=EOw6ucDKxNQdhUJE",
+    "activo": true
   },
   {
     "id": 7,

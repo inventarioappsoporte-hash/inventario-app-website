@@ -54,10 +54,10 @@
     "titulo": "Registrar salida de stock",
     "descripcion": "Aprende a registrar ventas y salidas de inventario",
     "categoria": "Movimientos",
-    "duracion": "3:50",
+    "duracion": "1:10",
     "miniatura": "assets/tutorial-salida.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    "activo": false
+    "video": "https://www.youtube.com/embed/VTgJ8Fi4dPw?si=DM5aTQbvzveBHEsV",
+    "activo": true
   },
   {
     "id": 7,
