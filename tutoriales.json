@@ -64,10 +64,10 @@
     "titulo": "Historial de movimientos",
     "descripcion": "Consulta el historial completo de entradas y salidas",
     "categoria": "Movimientos",
-    "duracion": "4:30",
+    "duracion": "1:32",
     "miniatura": "assets/tutorial-historial.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    "activo": false
+    "video": "https://www.youtube.com/embed/yh02xmzMTus?si=LmlSKA_IWXQ2Tu7D",
+    "activo": true
   },
   {
     "id": 8,

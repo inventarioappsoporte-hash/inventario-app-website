@@ -64,10 +64,10 @@
     "titulo": "Movement history",
     "descripcion": "Check the complete history of entries and exits",
     "categoria": "Movements",
-    "duracion": "4:30",
+    "duracion": "1:13",
     "miniatura": "assets/tutorial-historial.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    "activo": false
+    "video": "https://www.youtube.com/embed/OdRoPPl3tr0?si=4ROKWUTRp4Jq4aKz",
+    "activo": true
   },
   {
     "id": 8,
