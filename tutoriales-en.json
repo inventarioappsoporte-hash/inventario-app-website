@@ -104,15 +104,15 @@
     "titulo": "Set prices and margins",
     "descripcion": "Set purchase and selling prices correctly",
     "categoria": "Prices and Discounts",
-    "duracion": "5:20",
+    "duracion": "1:13",
     "miniatura": "assets/tutorial-precios.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    "activo": false
+    "video": "https://www.youtube.com/embed/w7W0mOQy138?si=35QEUNccB-zKA2zl",
+    "activo": true
   },
   {
     "id": 12,
-    "titulo": "Calculate profit margin",
-    "descripcion": "Understand how to calculate your profits per product",
+    "titulo": "Modify Prices for Multiple Products",
+    "descripcion": "With this feature, you can update many prices at once, quickly and easily. Choose the products, set the increase or discount, and that's it — all prices are updated in seconds.",
     "categoria": "Prices and Discounts",
     "duracion": "4:00",
     "miniatura": "assets/tutorial-margen.jpg",

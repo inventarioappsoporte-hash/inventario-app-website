@@ -104,15 +104,15 @@
     "titulo": "Configurar precios y márgenes",
     "descripcion": "Establece precios de compra y venta correctamente",
     "categoria": "Precios y Descuentos",
-    "duracion": "5:20",
+    "duracion": "1:26",
     "miniatura": "assets/tutorial-precios.jpg",
-    "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    "activo": false
+    "video": "https://www.youtube.com/embed/M-p_p8ju4HQ?si=W8PtaID9iFWvqoTT",
+    "activo": true
   },
   {
     "id": 12,
-    "titulo": "Calcular margen de ganancia",
-    "descripcion": "Entiende cómo calcular tus ganancias por producto",
+    "titulo": "Modificar precios en varios productos",
+    "descripcion": "Con esta función podés actualizar muchos precios de una sola vez, rápido y sin complicaciones. Elegís los productos, definís el aumento o descuento y listo: en segundos todos quedan actualizados ",
     "categoria": "Precios y Descuentos",
     "duracion": "4:00",
     "miniatura": "assets/tutorial-margen.jpg",
